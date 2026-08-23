@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Homepage on My New Hugo Project</title>
+		<title>Principal on My New Hugo Project</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content in Homepage on My New Hugo Project</description>
+		<description>Recent content in Principal on My New Hugo Project</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate></lastBuildDate>
+			<lastBuildDate>Sun, 23 Aug 2026 12:01:06 -0500</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Proyecto_2</title>
+				<link>http://localhost:1313/es/proyectos/proyecto_2/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>http://localhost:1313/es/proyectos/proyecto_2/</guid>
+				<description>&lt;p&gt;Dentro proyecto 2&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Proyecto_1</title>
+				<link>http://localhost:1313/es/proyectos/proyecto_1/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
+				<guid>http://localhost:1313/es/proyectos/proyecto_1/</guid>
+				<description>&lt;p&gt;Dentro proyecto 1&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sobre Yo</title>
+				<link>http://localhost:1313/es/sobre/</link>
+				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
+				<guid>http://localhost:1313/es/sobre/</guid>
+				<description>&lt;p&gt;Dentro Sobre yo&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Project_2</title>
+				<link>http://localhost:1313/en/projects/project_2/</link>
+				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<guid>http://localhost:1313/en/projects/project_2/</guid>
+				<description>&lt;p&gt;Inside project 2&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Project_1</title>
+				<link>http://localhost:1313/en/projects/project_1/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/en/projects/project_1/</guid>
+				<description>&lt;p&gt;Inside Project 1&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/en/about/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:44 -0500</pubDate>
+				<guid>http://localhost:1313/en/about/</guid>
+				<description>&lt;p&gt;Inside About&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>
