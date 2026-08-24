@@ -15,9 +15,9 @@
 			<atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Sobre Yo</title>
-				<link>http://localhost:1313/es/sobre/</link>
+				<link>http://localhost:1313/es/about/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
-				<guid>http://localhost:1313/es/sobre/</guid>
+				<guid>http://localhost:1313/es/about/</guid>
 				<description>&lt;p&gt;Dentro Sobre yo&lt;/p&gt;</description>
 			</item>
 	</channel>

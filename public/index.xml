@@ -15,23 +15,23 @@
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Proyecto_2</title>
-				<link>http://localhost:1313/es/proyectos/proyecto_2/</link>
+				<link>http://localhost:1313/es/proyectos/project_2/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/es/proyectos/proyecto_2/</guid>
+				<guid>http://localhost:1313/es/proyectos/project_2/</guid>
 				<description>&lt;p&gt;Dentro proyecto 2&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Proyecto_1</title>
-				<link>http://localhost:1313/es/proyectos/proyecto_1/</link>
+				<link>http://localhost:1313/es/proyectos/project_1/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
-				<guid>http://localhost:1313/es/proyectos/proyecto_1/</guid>
+				<guid>http://localhost:1313/es/proyectos/project_1/</guid>
 				<description>&lt;p&gt;Dentro proyecto 1&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Sobre Yo</title>
-				<link>http://localhost:1313/es/sobre/</link>
+				<link>http://localhost:1313/es/about/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
-				<guid>http://localhost:1313/es/sobre/</guid>
+				<guid>http://localhost:1313/es/about/</guid>
 				<description>&lt;p&gt;Dentro Sobre yo&lt;/p&gt;</description>
 			</item>
 			<item>
