@@ -3,34 +3,39 @@
 /* CSS Custom Properties */
 :root {
   /* Enhanced Color Palette */
-  --kawaii-primary: #ff6b9d;
-  --kawaii-primary-hover: #ff4585;
-  --kawaii-primary-light: #ffb3d1;
-  --kawaii-primary-dark: #e55a8a;
+  --kawaii-primary: #f97316;/*#ff6b9d*/
+  --kawaii-primary-hover: #ea580c; /*#ff4585 */
+  --kawaii-primary-light: #fdba74;/* #ffb3d1*/
+  --kawaii-primary-dark: #c2410c;/*#e55a8a */
   
-  --kawaii-secondary: #6366f1;
-  --kawaii-secondary-hover: #4f46e5;
-  --kawaii-secondary-light: #a5b4fc;
-  --kawaii-secondary-dark: #3730a3;
+  --kawaii-secondary: #1e3a8a;/*#6366f1 */
+  --kawaii-secondary-hover: #172554;/*#4f46e5 */
+  --kawaii-secondary-light: #93c5fd;/*#a5b4fc */
+  --kawaii-secondary-dark: #172554;/*#3730a3 */
   
-  --kawaii-accent: #06d6a0;
-  --kawaii-accent-hover: #05c090;
-  --kawaii-accent-light: #6ee7b7;
-  --kawaii-accent-dark: #059669;
+  --kawaii-accent: #22c55e;/*#06d6a0 */
+  --kawaii-accent-hover: #16a34a;/*#05c090 */
+  --kawaii-accent-light: #86efac;/* #6ee7b7*/
+  --kawaii-accent-dark: #15803d;/* #059669*/
   
-  --kawaii-warning: #f59e0b;
-  --kawaii-warning-hover: #d97706;
-  --kawaii-error: #ef4444;
-  --kawaii-success: #10b981;
-  --kawaii-info: #3b82f6;
+  --kawaii-warning: #fbbf24;/*#f59e0b*/
+  --kawaii-warning-hover: #f59e0b;/*#d97706 */
+  --kawaii-error: #ef4444;/* #ef4444*/
+  --kawaii-success: #22c55e;/* #10b981*/
+  --kawaii-info: #2563eb;/*#3b82f6 */
   
   /* Refined Gradients */
-  --kawaii-gradient-primary: linear-gradient(135deg, #ff6b9d 0%, #6366f1 100%);
-  --kawaii-gradient-secondary: linear-gradient(135deg, #06d6a0 0%, #3b82f6 100%);
-  --kawaii-gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --kawaii-gradient-warm: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  --kawaii-gradient-cool: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  
+  --kawaii-gradient-primary: linear-gradient(135deg, #f97316  0%, #fbbf24  100%);
+  /*#ff6b9d - #6366f1 */
+  --kawaii-gradient-secondary: linear-gradient(135deg, #1e3a8a  0%, #3b82f6  100%);
+  /*#06d6a0 - #3b82f6 */
+  --kawaii-gradient-hero: linear-gradient(135deg, #ea580c  0%, #f97316  100%);
+  /*#667eea - #764ba2 */
+  --kawaii-gradient-warm: linear-gradient(135deg, #fff7ed  0%, #fed7aa  100%);
+  /*#ffecd2 - #fcb69f */
+  --kawaii-gradient-cool: linear-gradient(135deg, #dbeafe  0%, #bfdbfe  100%);
+  /* #a8edea - #fed6e3*/
+
   /* Enhanced Text Colors */
   --kawaii-text-primary: #1f2937;
   --kawaii-text-secondary: #374151;
@@ -893,7 +898,7 @@ hr::after {
 .kawaii-shape-1 {
   width: 80px;
   height: 80px;
-  background: #ff6b9d;
+  background: #f97316;
   top: 20%;
   left: 10%;
   animation-delay: 0s;
