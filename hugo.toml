@@ -2,6 +2,41 @@ baseURL = 'https://example.org/'
 # locale = 'en-us'
 title = 'JP'
 
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+      alt = "Principio"
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+    [menu.main.params]
+      alt = "Sobre Yo"
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+    [menu.main.params]
+      alt = "Proyectos"
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+    [menu.main.params]
+      alt = "Contacto"
+
+
+
+
+
+
+
 
 [module]
   [module.hugoVersion]
@@ -60,31 +95,7 @@ title = 'JP'
     description = "Responsive design that looks perfect on all devices and screen sizes"
     icon = "📱"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
 
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts"
-    weight = 20
-
-  [[menu.main]]
-    name = "Gallery"
-    url = "/gallery"
-    weight = 25
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 30
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 40
 
 [markup]
   [markup.highlight]

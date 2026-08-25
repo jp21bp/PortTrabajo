@@ -1,5 +1,6 @@
 <header class="kawaii-header">
     <nav class="kawaii-nav">
+        {{$lenguage := substr $.Page.RelPermalink 1 2}}
         <div class="kawaii-nav-brand">
             <a href="{{ .Site.BaseURL }}" class="kawaii-logo">
                 {{ if .Site.Params.logo }}
@@ -10,13 +11,16 @@
             </a>
         </div>
         
-        {{$folder := substr $.Page.RelPermalink 1 2}}
         <div class="kawaii-nav-menu" id="kawaii-nav-menu">
             {{ range .Site.Menus.main }}
                 {{/*  {{$menu_link := delimit (slice (substr $.Page.RelPermalink 0 3) .URL)  ``}}  */}}
-                {{$menu_link := printf "/%s%s" $folder .URL}}
+                {{$menu_link := printf "/%s%s" $lenguage .URL}}
                 <a href="{{ $menu_link }}" class="kawaii-nav-link {{ if $.IsMenuCurrent `main` . }}kawaii-nav-active{{ end }}">
-                    {{ .Name }}
+                    {{ if eq $lenguage "es"}}
+                        {{ .Params.alt }}
+                    {{ else }}
+                        {{ .Name}}
+                    {{end}}
                 </a>
             {{ end }}
         </div>
@@ -31,7 +35,7 @@
             </button>
             {{ end }}
 
-            {{ if eq $folder "es"}}
+            {{ if eq $lenguage "es"}}
                 {{ $switch := replaceRE "es" "en" $.Page.RelPermalink 1}}
                 <a href="{{$switch}}" class="lang-nav-link lang-nav-active">
                     English
