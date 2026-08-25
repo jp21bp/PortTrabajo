@@ -785,6 +785,25 @@ hr::after {
   color: var(--kawaii-primary);
 }
 
+/* Tab de cambiar lenguajes -- start */
+
+.lang-nav-link {
+  padding: var(--kawaii-spacing-sm) var(--kawaii-spacing-md);
+  border-radius: var(--kawaii-radius-md);
+  transition: var(--kawaii-transition);
+  font-weight: 500;
+  background-color: var(--kawaii-primary);
+  color: white;
+}
+
+.lang-nav-link:hover,
+.klag-nav-active {
+  background: var(--kawaii-primary-light);
+  color: var(--kawaii-primary-dark);
+}
+
+/* Tab de cambiar lenguajes -- end*/
+
 .kawaii-nav-extras {
   display: flex;
   align-items: center;

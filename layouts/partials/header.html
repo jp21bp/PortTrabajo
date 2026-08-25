@@ -33,12 +33,12 @@
 
             {{ if eq $folder "es"}}
                 {{ $switch := replaceRE "es" "en" $.Page.RelPermalink 1}}
-                <a href="{{$switch}}" class="kawaii-nav-link kawaii-nav-active">
+                <a href="{{$switch}}" class="lang-nav-link lang-nav-active">
                     English
                 </a>
             {{ else }}
                 {{ $switch := replaceRE "en" "es" $.Page.RelPermalink 1}}
-                <a href="{{$switch}}" class="kawaii-nav-link kawaii-nav-active">
+                <a href="{{$switch}}" class="lang-nav-link lang-nav-active">
                     Español
                 </a>
             {{ end }}
