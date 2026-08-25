@@ -2,7 +2,32 @@
 
 {{ define "main" }}
 <div class="kawaii-list-header">
-    <h1 class="kawaii-list-title">{{ .Title }}</h1>
+    <h1 class="kawaii-list-title">
+        {{ $title_parts := split .Title " "}}
+        {{ range $title_parts}}
+            {{$first := substr . 0 1}}
+            {{$rest := substr . 1}}
+            <span style="color: #f97316;">{{$first}}</span>{{$rest}}
+        {{end}}
+    </h1>
+        {{/*  {{ $title_parts := split .Title " "}}
+        {{ range $title_parts}}
+            <span class="primera-letra">{{ . | safeHTML}}</span>
+        {{end}}  */}}
+
+        {{/*  {{ $title_parts := split .Title " " }}
+        {{ range $title_parts }}
+        <span class="primera-letra">Hola:{{ slice . 0 1 }}</span>{{ slice . 1 }}
+        {{ end }}  */}}
+
+        {{/*  <span class="primera-letra">Titulo: {{.Title}}</span>  */}}
+
+        {{/*  {{ $title_parts := split .Title " "}}
+        {{ range $title_parts}}
+            {{range $idx, $letra := slice . 0 (len .)}}
+                <span class="primera-letra">{{ $letra | safeHTML}}</span>
+            {{end}}
+        {{end}}  */}}
     {{ if .Content }}
     <div class="kawaii-list-description">
         {{ .Content }}

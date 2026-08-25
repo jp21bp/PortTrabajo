@@ -1296,6 +1296,7 @@ hr::after {
   margin-bottom: var(--kawaii-spacing-lg);
 }
 
+
 .kawaii-list-description {
   font-size: 1.125rem;
   color: var(--kawaii-text-secondary);
@@ -1332,6 +1333,8 @@ hr::after {
   margin: 0 auto;
   padding: var(--kawaii-spacing-3xl) var(--kawaii-spacing-lg) var(--kawaii-spacing-xl);
   display: grid;
+  /* justify-content: start;
+  align-content: start; */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--kawaii-spacing-xl);
 }
@@ -1430,6 +1433,10 @@ hr::after {
   text-decoration: none;
 }
 
+.kawaii-theme-credit{
+  display: none;
+}
+
 .kawaii-heart {
   color: var(--kawaii-primary);
   animation: kawaii-heartbeat 1.5s ease-in-out infinite;
@@ -1462,6 +1469,7 @@ hr::after {
   .kawaii-list-title {
     font-size: var(--kawaii-text-3xl);
   }
+
   
   h1 { font-size: var(--kawaii-text-4xl); }
   h2 { font-size: var(--kawaii-text-3xl); }
