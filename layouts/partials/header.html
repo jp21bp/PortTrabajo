@@ -10,12 +10,14 @@
             </a>
         </div>
         
+        {{$folder := substr $.Page.RelPermalink 1 2}}
         <div class="kawaii-nav-menu" id="kawaii-nav-menu">
             {{ range .Site.Menus.main }}
-            {{$menu_link := delimit (slice (substr $.Page.RelPermalink 0 3) .URL)  ``}}
-            <a href="{{ $menu_link }}" class="kawaii-nav-link {{ if $.IsMenuCurrent `main` . }}kawaii-nav-active{{ end }}">
-                {{ .Name }} 
-            </a>
+                {{/*  {{$menu_link := delimit (slice (substr $.Page.RelPermalink 0 3) .URL)  ``}}  */}}
+                {{$menu_link := printf "/%s%s" $folder .URL}}
+                <a href="{{ $menu_link }}" class="kawaii-nav-link {{ if $.IsMenuCurrent `main` . }}kawaii-nav-active{{ end }}">
+                    {{ .Name }}
+                </a>
             {{ end }}
         </div>
         
@@ -28,7 +30,19 @@
                 </svg>
             </button>
             {{ end }}
-            
+
+            {{ if eq $folder "es"}}
+                {{ $switch := replaceRE "es" "en" $.Page.RelPermalink 1}}
+                <a href="{{$switch}}" class="kawaii-nav-link kawaii-nav-active">
+                    English
+                </a>
+            {{ else }}
+                {{ $switch := replaceRE "en" "es" $.Page.RelPermalink 1}}
+                <a href="{{$switch}}" class="kawaii-nav-link kawaii-nav-active">
+                    Español
+                </a>
+            {{ end }}
+
             {{ if .Site.Params.theme_toggle }}
             <button class="kawaii-theme-toggle" aria-label="Toggle theme">
                 <svg class="kawaii-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">

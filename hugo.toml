@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
+# locale = 'en-us'
 title = 'JP'
+
 
 [module]
   [module.hugoVersion]
@@ -11,12 +12,13 @@ title = 'JP'
   pagerSize = 6
 
 
+
 [params]
   description = "JP - Portfolio - Portafolio"
   author = "Jordan Parra"
 
   theme_toggle = true
-  search = true
+  # search = true
   # favicon = "/favicon.ico"
 
   # hero_cta = "Explore Demo"
