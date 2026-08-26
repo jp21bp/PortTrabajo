@@ -4,7 +4,7 @@
 <article class="kawaii-article">
     <header class="kawaii-article-header">
         <div class="kawaii-article-meta">
-            <time class="kawaii-date" datetime="{{ .Date.Format "2006-01-02" }}">
+            <time class="kawaii-date" datetime="{{ .Date.Format `2006-01-02` }}">
                 {{ .Date.Format "January 2, 2006" }}
             </time>
             {{ if .Params.tags }}
@@ -15,7 +15,14 @@
             </div>
             {{ end }}
         </div>
-        <h1 class="kawaii-article-title">{{ .Title }}</h1>
+        <h1 class="kawaii-article-title">
+            {{ $title_parts := split .Title " "}}
+            {{ range $title_parts}}
+                {{$first := substr . 0 1}}
+                {{$rest := substr . 1}}
+                <span style="color: #f97316;">{{$first}}</span>{{$rest}}
+            {{end}}
+        </h1>
         {{ if .Params.description }}
         <p class="kawaii-article-description">{{ .Params.description }}</p>
         {{ end }}
