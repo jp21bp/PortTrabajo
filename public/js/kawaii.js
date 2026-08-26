@@ -316,6 +316,19 @@
         });
     }
 
+    // function articleClick(){
+    //     console.log('HELLOS')
+    //     document.addEventListener("DOMContentLoaded", () => {
+    //         const articles = document.querySelectorAll(".kawaii-posts-grid > article");
+    //         articles.forEach(article => {
+    //             article.addEventListener('click', () => {
+    //                 // window.location.href = article.dataset.url;
+    //                 console.warn('HOLAA')
+    //             });
+    //         });
+    //     });
+    // }
+
     // Initialize everything when DOM is loaded
     function init() {
         initThemeToggle();
@@ -327,6 +340,7 @@
         initCodeCopy();
         initSearch();
         initBackToTop();
+        // articleClick();
     }
 
     // Wait for DOM to be ready

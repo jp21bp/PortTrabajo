@@ -17,44 +17,46 @@
     {{ end }}
 </div>
 
-<h1>AAAAAAAAAAAAAAAA</h1>
+<h1>aaaaaa</h1>
 
 <div class="kawaii-posts-grid">
     {{ range .Pages }}
-    <article class="kawaii-post-card">
-        <div class="kawaii-card-content">
-            {{ if .Params.featured_image }}
-            <div class="kawaii-card-image">
-                <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" loading="lazy">
-            </div>
-            {{ end }}
-            
-            <div class="kawaii-card-text">
-                <h2 class="kawaii-card-title">
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h2>
-                
-                {{ if .Params.description }}
-                <p class="kawaii-card-description">{{ .Params.description }}</p>
-                {{ else }}
-                <p class="kawaii-card-description">{{ .Summary | truncate 120 }}</p>
+    <article class="kawaii-post-card"> 
+        <a href="{{ .Permalink }}" >
+            <div class="kawaii-card-content">
+                {{ if .Params.featured_image }}
+                <div class="kawaii-card-image">
+                    <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" loading="lazy">
+                </div>
                 {{ end }}
                 
-                <div class="kawaii-card-meta">
-                    <time class="kawaii-card-date" datetime="{{ .Date.Format `2006-01-02` }}">
-                        {{ .Date.Format "Jan 2, 2006" }}
-                    </time>
+                <div class="kawaii-card-text">
+                    <h2 class="kawaii-card-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
                     
-                    {{ if .Params.tags }}
-                    <div class="kawaii-card-tags">
-                        {{ range first 3 .Params.tags }}
-                        <span class="kawaii-tag kawaii-tag-small">#{{ . }}</span>
+                    {{ if .Params.description }}
+                    <p class="kawaii-card-description">{{ .Params.description }}</p>
+                    {{ else }}
+                    <p class="kawaii-card-description">{{ .Summary | truncate 120 }}</p>
+                    {{ end }}
+                    
+                    <div class="kawaii-card-meta">
+                        <time class="kawaii-card-date" datetime="{{ .Date.Format `2006-01-02` }}">
+                            {{ .Date.Format "Jan 2, 2006" }}
+                        </time>
+                        
+                        {{ if .Params.tags }}
+                        <div class="kawaii-card-tags">
+                            {{ range first 3 .Params.tags }}
+                            <span class="kawaii-tag kawaii-tag-small">#{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
                     </div>
-                    {{ end }}
                 </div>
             </div>
-        </div>
+        </a>
     </article>
     {{ end }}
 </div>
