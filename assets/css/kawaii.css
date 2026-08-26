@@ -1067,7 +1067,7 @@ hr::after {
 
 .kawaii-card-image img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
   transition: var(--kawaii-transition);
 }
