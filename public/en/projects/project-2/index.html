@@ -128,7 +128,301 @@
     </header>
     
     <div class="kawaii-content">
-        <p>Inside project 2</p>
+        <h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+<li><a href="#project-background"
+   >
+    Project Background
+</a>
+<ul>
+<li><a href="#insights-reccomendations-and-focus-areas"
+   >
+    Insights, Reccomendations and focus areas
+</a></li>
+</ul>
+</li>
+<li><a href="#data-structure"
+   >
+    Data Structure
+</a></li>
+<li><a href="#executive-summary"
+   >
+    Executive Summary
+</a>
+<ul>
+<li><a href="#overview-of-discoveries"
+   >
+    Overview of Discoveries
+</a></li>
+<li><a href="#discovery-trends"
+   >
+    Discovery Trends
+</a></li>
+</ul>
+</li>
+<li><a href="#insight-details"
+   >
+    Insights Details
+</a>
+<ul>
+<li><a href="#concentration-564-of-international-visitors"
+   >
+    Concentration: 56.4% of International Visitors
+</a></li>
+<li><a href="#immigration-control-among-the-top-3-countries"
+   >
+    Immigration Control Among the Top 3 Countries
+</a></li>
+<li><a href="#the-months-with-2175-of-annual-tourists"
+   >
+    The Months with 21.75% of Annual Tourists
+</a></li>
+</ul>
+</li>
+<li><a href="#models-predictions-and-their-impacts"
+   >
+    Models, Predictions, and their Impacts
+</a>
+<ul>
+<li><a href="#predicting-expected-number-of-tourist-visitors"
+   >
+    Predicting Expected Number of Tourist Visitors
+</a></li>
+<li><a href="#the-6-types-of-international-visitors"
+   >
+    The 6 Types of International Visitors
+</a></li>
+</ul>
+</li>
+<li><a href="#recommendations"
+   >
+    Recommendations
+</a>
+<ul>
+<li><a href="#targeted-marketing-based-on-country-and-point-of-entry"
+   >
+    Targeted Marketing Based on Country and Point of Entry
+</a></li>
+<li><a href="#managing-a-budget-that-fluctuates-month-to-month"
+   >
+    Managing a Budget That Fluctuates Month to Month
+</a></li>
+<li><a href="#including-free-admission-sites-in-promotional-packages-for-machu-picchu"
+   >
+    Including Free-Admission Sites in Promotional Packages for Machu Picchu
+</a></li>
+</ul>
+</li>
+<li><a href="#kpis"
+   >
+    KPIs
+</a>
+<ul>
+<li><a href="#1-percent-change-of-clients"
+   >
+    Percent Change of Clients
+</a></li>
+<li><a href="#2-dynamic-budget"
+   >
+    Dynamic Budget
+</a></li>
+<li><a href="#3-site-ratios"
+   >
+    Site Ratios
+</a></li>
+</ul>
+</li>
+<li><a href="#assumptions"
+   >
+    Assumptions
+</a></li>
+</ol>
+<h2 id="project-background">Project Background</h2>
+<p>PeruTur is a small company that provides tourism services to international visitors entering Peru. It currently operates in the city of Lima and wants to expand throughout the country, but it is unsure of the best strategy to promote its services nationwide. This project uses Peruvian public data containing information on country-wide tourist sites and international tourists from <strong>2019–2025</strong>.</p>
+<p>The analysis and models show that tourists can be grouped based on the <strong>Immigration Control Office (OCM)</strong> through which they entered the country, which can be used to generate targeted marketing to optimize advertisement efforts. Additionally, the analysis reveals that tourist visits follow a monthly trend throughout the year, with the number of tourists peaking in July and August and reaching a low in February. Finally, there are a variety of tourist sites with no admission fee, creating an opportunity to minimize the costs of tourist trips.</p>
+<p>The recommendations on targeted marketing, dynamic budgeting, and free sites is highlighted when creating a strategy to help PeruTur expand nationwide.</p>
+<p><br><br></p>
+<h3 id="insights-reccomendations-and-focus-areas">Insights, Reccomendations and focus areas</h3>
+<p><strong>Visitor Distribution and Countries of Origin</strong>: 95% of international visitors come from <strong>25 countries</strong>, with the top 6 countries accounting for 70.6%. Additionally, 5 of these 6 countries are in South America. This creates an opportunity to narrow down the focus to specific countries and conduct targeted marketing toward each of them.</p>
+<p><strong>Immigration Control Offices (OCMs) and Neighboring Countries</strong>: 4 of the 81 national OCMs account for <strong>94.67%</strong> of all international arrivals in Peru. Furthermore, the majority of arrivals at each of these 4 OCMs come from the nearest neighboring country (with the exception of Lima International Airport). When developing advertisements located on these OCMs, it is recommended to focus on attracting tourists from the closest neighboring countries.</p>
+<p><strong>Availability of Free Tourist Sites</strong>: Machu Picchu, one of the seven wonders of the world, is the most popular tourist site in Peru, meaning that most of PeruTur’s customers will want to travel there. The analysis showed that there are 16 <strong>free-entry</strong> tourist sites within a 25-kilometer radius of Machu Picchu. This presents an opportunity to create advertisements that include these sites without incurring additional costs (other than gasoline).</p>
+<p><br><br>
+The web scraping process can be found <a href="https://github.com/jp21bp/PeruTur_EN/blob/main/scraper.py"
+   target="_blank" rel="noopener noreferrer">
+    HERE
+</a></p>
+<p>The data insight development can be found <a href="https://github.com/jp21bp/PeruTur_EN/blob/main/insights.ipynb"
+   target="_blank" rel="noopener noreferrer">
+    HERE
+</a></p>
+<p>The models&rsquo; creation and evaluation can be found <a href="https://github.com/jp21bp/PeruTur_EN/tree/main/Models"
+   target="_blank" rel="noopener noreferrer">
+    HERE
+</a></p>
+<p><br><br></p>
+<h2 id="data-structure">Data Structure</h2>
+<p>Three different datasets were used to conduct the necessary analyses, and their components are as follows:</p>
+<ol>
+<li>International visitors: year, month, country, continent, OCM, and number of visitors</li>
+<li>Visitors to tourist sites: year, month, department, tourist site, and number of visitors</li>
+<li>Inventory of tourist resources: region, category, URL, latitude, and longitude</li>
+</ol>
+<p>Before beginning the analysis, the integrity and structure of the datasets were verified through organization and cleaning.</p>
+<p><br><br></p>
+<h2 id="executive-summary">Executive Summary</h2>
+<h3 id="overview-of-discoveries">Overview of Discoveries</h3>
+<p>Most international visitors to Peru come from just 25 countries, with Chile, the U.S., and Ecuador accounting for <strong>56.4% of annual visitors</strong>. This presents an opportunity for PeruTur to focus on a small number of countries and develop targeted marketing strategies. Additionally, the entry points for these visitors are split between Lima Airport (55.76%) and Santa Rosa Airport (28.41%). This suggests that marketing efforts should focus on the areas surrounding these entry points, in order to reach the majority of potential customers. Furthermore, <strong>July and August account for 21.75% of annual visitors</strong> and are the months when PeruTur can invest more to meet the demand for tourism services. Finally, Machu Picchu is the most popular tourist site and is surrounded by other sites with free admission. PeruTur can take advantage of this financial opportunity to expand its promotional packages without incurring additional expenses.</p>
+<h3 id="discovery-trends">Discovery Trends</h3>
+<p><strong>South America and Peru&rsquo;s Neighbors</strong>: Five of the top six countries in terms of international visitors are Peru&rsquo;s neighbors, and all South American countries are among the top 25 countries by contribution.</p>
+<p><strong>Tourism Seasons</strong>: Every year, July and August see the highest number of international visitors, while <strong>February has the lowest</strong>, accounting for only 4.84* of all annual visitors.</p>
+<p><strong>Free Sites Around Machu Picchu</strong>: Within a 25-kilometer radius of Machu Picchu, there are 16 sites with free admission, most of which are located to the north.</p>
+<p><br><br></p>
+<h2 id="insight-details">Insight Details</h2>
+<h3 id="concentration-564-of-international-visitors">Concentration: 56.4% of International Visitors</h3>
+<p>Given that Peru has an abundance of historical and cultural sites, including one of the seven wonders of the world, it was expected that there would be a balanced percentage of visitors from all countries. The analysis revealed other findings.</p>
+<ul>
+<li><strong>Chile</strong>: accounts for 32.9% of <strong>all</strong> international visitors</li>
+<li><strong>Top 3 Countries</strong>: account for 56.4% of international visitors</li>
+<li><strong>Top 6 Countries</strong>: account for 70.6% of international visitors</li>
+</ul>
+<p>Notable Patterns:</p>
+<ul>
+<li><strong>Monthly Consistency</strong>
+<ul>
+<li>Within each month, the top 3 countries are generally Chile, the U.S., and Ecuador. This consistency will help enable targeted marketing efforts throughout the year.</li>
+</ul>
+</li>
+<li><strong>Border Policy Impacts Number of International Visitors</strong>
+<ul>
+<li>Five of the top six countries are <strong>direct neighbors</strong> of Peru. A large majority of international visitors are affected by policies at Peru’s borders.</li>
+</ul>
+</li>
+<li><strong>High Concentration in 25 of 198 Countries</strong>
+<ul>
+<li>95% of all international visitors come from the top 25 out of 198 countries. That is, 177 countries do not contribute significantly to visitor numbers, and there is no need to focus heavily on them.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/en/proj2/VisitorsPerMonth.png" alt="Visitors Per Month"></p>
+<p><br><br></p>
+<h3 id="immigration-control-among-the-top-3-countries">Immigration Control Among the Top 3 Countries</h3>
+<p>Given that Chile, the U.S., and Ecuador account for more than half of all visitors, it is important to consider the Immigration Control Office (OCM) they use to enter Peru.</p>
+<ul>
+<li>79.47% of Chileans enter through the <strong>Santa Rosa</strong> OCM in Tacna, southern Peru</li>
+<li>96.19% of Americans use <strong>Jorge Chávez International Airport</strong>.</li>
+<li>67.54% of Ecuadorians enter through the <strong>Cebaf-Tumbes</strong> OCM in Tumbes, northern Peru</li>
+</ul>
+<p>Notable Patterns:</p>
+<ul>
+<li>81 OCMs account for only 4.36% of international visitors.
+<ul>
+<li>There are 86 OCMs in Peru, with 81 of them grouped under the same variable ‘OTRAS_OCM’. Only 4.36% of international visitors enter through these other OCMs, implying that they do not have a significant impact.
+    <h4 id="ocm"></h4></li>
+</ul>
+</li>
+<li>Border Crossing Points (OCMs) and their <strong>closest</strong> neighboring country
+<ul>
+<li>Every OCM, except Lima Airport, has the majority of its visitors coming from the closest neighboring country.</li>
+</ul>
+</li>
+<li>Santa Rosa and Chileans
+<ul>
+<li>Although <strong>28.41%</strong> of all international visitors enter through the Santa Rosa OCM, most of those visitors come from Chile. This is evident from the fact that one-third of all international visitors are Chilean, and 79.47% of them enter through Santa Rosa.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/en/proj2/OCMByCountry.png" alt="OCM by Country"></p>
+<h3 id="the-months-with-2175-of-annual-tourists">The Months with 21.75% of Annual Tourists</h3>
+<p>There are various factors that affect the number of tourists in a given month, such as the weather, historical events, political changes, etc. Some of these factors follow an annual cycle, signaling that the number of tourists also follows annual trends.</p>
+<ul>
+<li>The months of <strong>July and August</strong> account for 21.75% of annual tourists.</li>
+<li>February has the <strong>lowest</strong> number of tourists.</li>
+<li><strong>Machu Picchu</strong>, including the town, is the most visited site every month.</li>
+</ul>
+<p>Notable Patterns:</p>
+<ul>
+<li>Seasonal trends at all tourist sites
+<ul>
+<li>There is a seasonal trend at all tourist sites. July and August receive the highest number of tourists, while February has the lowest number.</li>
+</ul>
+</li>
+<li>Prominence of Machu Picchu
+<ul>
+<li>The top 5 sites are all related to Machu Picchu in some way. Some are services related to Machu Picchu, and others are sites in the surrounding area.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/en/proj2/MonthlyTourists.png" alt="Monthly Tourists"></p>
+<p><br><br></p>
+<h3 id="16-free-sites-within-25-km-of-machu-picchu">16 Free Sites Within 25 km of Machu Picchu</h3>
+<p>As one of the seven wonders of the world, Machu Picchu was expected to be the most popular tourist destination. There are also a variety of nearby tourist sites with no admission fee, providing an opportunity for travel agencies to maximize their profits.</p>
+<ul>
+<li>There are 16 sites with <strong>free admission</strong> within 25 kilometers of Machu Picchu.</li>
+<li>Most of these sites are located to the <strong>north</strong> and are along major routes.</li>
+</ul>
+<p><img src="/en/proj2/MP.png" alt="Map"></p>
+<p><br><br></p>
+<h2 id="models-predictions-and-their-impacts">Models, Predictions, and Their Impacts</h2>
+<h3 id="predicting-expected-number-of-tourist-visitors">Predicting Expected Number of Tourist Visitors</h3>
+<p>Predicting the number of visitors expected in a given month would help a business optimize its resources. Given the month, department, and name of the tourist site, the regression model predicts the number of visitors expected at that site.</p>
+<p>Three candidate models were tested on this data: linear regression, lasso regression, and random forest. When an appropriate metric was applied to all candidates, the random forest model yielded the best results.</p>
+<p>When applying the model to the available data, it is estimated that there is a small average difference of 4,915 tourists between the prediction and the actual value. The results demonstrate that the model can be used with confidence to predict the number of tourists within a given month.</p>
+<p><img src="/en/proj2/PredVSActual.png" alt="Pred Vs Actual"></p>
+<p><br><br></p>
+<h3 id="the-6-types-of-international-visitors">The 6 Types of International Visitors</h3>
+<p>K-Means is an algorithm that groups data points into clusters based on their proximity to one another. This process revealed the following clusters:</p>
+<ul>
+<li>Cluster 1: Entrants via the Santa Rosa Border Crossing Point</li>
+<li>Cluster 2: Chilean and U.S. visitors</li>
+<li>Cluster 3: Entrants via the Lima International Airport and Cebaf-Tumbres border crossing points</li>
+<li>Cluster 4: Entrants via other border crossing points not considered</li>
+<li>Cluster 5: Entrants via the Desaguadero border crossing point</li>
+<li>Cluster 6: Arrivals via the Kasani border crossing point</li>
+</ul>
+<p>K-Means primarily grouped international visitors by their point of entry. Given that the majority of visitors at a border crossing point are citizens of the <a href="#ocm">nearest country</a>, this grouping is consistent with the data.</p>
+<p>The second cluster focuses entirely on the visitors’ country of origin, particularly Chile and the U.S. Given that these two countries account for <a href="#concentration-564-of-international-visitors"
+   >
+    48.5% of all international visitors
+</a>, this cluster is consistent with the data.</p>
+<p>In practice, targeted marketing campaigns can be developed for each cluster. When a new visitor arrives, they can be assigned to a cluster based on which OCM they entered from. Once assigned to a cluster, they can be shown the same marketing campaigns as others in that group.</p>
+<p><br><br></p>
+<h2 id="recommendations">Recommendations</h2>
+<p>Based on the findings, insights, and model results, the following recommendations are made to PeruTur’s <strong>Marketing Team</strong>:</p>
+<h3 id="targeted-marketing-based-on-country-and-point-of-entry">Targeted Marketing Based on Country and Point of Entry</h3>
+<p>The top 10 countries of origin for international visitors account for 82.5% of <strong>all</strong> international visitors, with Chile accounting for nearly one-third of that total, and 6 of those 10 countries are in South America. Additionally, it was found that the majority of visitors entering through each port of entry come from the <strong>nearest neighboring country</strong>, creating a link between the port of entry and the country of origin. This finding was reinforced by the clusters created by the K-Means algorithm, which grouped all visitors by their entry OCM.</p>
+<p>Therefore, it is recommended that the marketing team focus on the following targeted marketing strategies:</p>
+<ul>
+<li>Lima Airport OCM: Focus on an international audience, without placing too much emphasis on South American countries.</li>
+<li>Santa Rosa OCM: Focus on Chile.</li>
+<li>Cebaf-Tumbes OCM: Focus on Ecuador.</li>
+<li>Desaguadero OCM: Focus on Bolivia.</li>
+<li>All other OCMs: minimal and general investment.</li>
+</ul>
+<br>
+<h3 id="managing-a-budget-that-fluctuates-month-to-month">Managing a Budget That Fluctuates Month to Month</h3>
+<p>Tourist destinations have peak seasons in July and August, and off-peak seasons in February. To optimize the use of an annual budget, it’s recommended to create a <strong>dynamic budget</strong> that allocates a high budget to July and August, while assigning a low budget to February.</p>
+<p>This dynamic would also affect the campaigns being run, but trends from countries of origin remain consistent across all months. Given that the majority of international visitors come from Chile every month, it would be best to focus marketing efforts on Chileans during the off-season. Conversely, during the peak season — when the budget is larger — campaigns can be expanded to target Americans, Ecuadorians, and others, depending on the available budget.</p>
+<br>
+<h3 id="including-free-admission-sites-in-promotional-packages-for-machu-picchu">Including Free-Admission Sites in Promotional Packages for Machu Picchu</h3>
+<p>Machu Picchu is the most popular tourist destination in Peru. It has also been discovered that there are a variety of other sites in the surrounding area with no admission fee. Within 25 kilometers of Machu Picchu, there are 16 of these <strong>free-entry</strong> sites. Taking into consideration the cost of gas to transport tourists within a 25-kilometer radius, these sites can be incorporated into promotional packages to attract more visitors.</p>
+<p><br><br></p>
+<h2 id="kpis">KPIs</h2>
+<h3 id="1-percent-change-of-clients">1. Percent Change of Clients</h3>
+<p>((New Clients - Old Clients)/Old Clients) * 100</p>
+<p>Focus: To measure the targeted marketing campaign effectiveness, this metric will be measured in each OCM that gets selected for the marketing campaign.</p>
+<h3 id="2-dynamic-budget">2. Dynamic Budget</h3>
+<p>Annual Budget * (Monthly Tourists / Annual Tourists)</p>
+<p>Objetive: Assign a budget proportional to the percent of tourists during a given month.</p>
+<h3 id="3-site-ratios">3. Site Ratios</h3>
+<p>Free-entry sites : paid-entry sites</p>
+<p>Focus: This ratio will demonstrate the effect of integrating free-entry sites into advertisements, with the objective being to increase the value of this ratio.</p>
+<p><br><br></p>
+<h2 id="assumptions">Assumptions</h2>
+<p>This analysis made the following assumptions in order to overcome multiple challenges:</p>
+<ul>
+<li>Tourists vs. Day Trippers: Given the limited data, no distinction was made between tourists and day trippers in this analysis. Similarly, it is possible for a day tripper to visit a tourist site or for a tourist not to visit any sites at all. Both categories were grouped under “international visitors.”</li>
+<li>Weather: Although weather is an important factor in tourist movement, this data was omitted due to the significant differences between Peru’s coast, highlands, and jungle regions. This point was communicated to the company, and they decided to begin recording weather conditions at all tourist sites. In a future project, this information could be integrated to improve the regression model’s predictions.</li>
+</ul>
 
     </div>
     
