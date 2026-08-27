@@ -20,7 +20,7 @@ summary: 'asfsaf'
     * [1. Advertising Combination: 'Meat' and 'Cookies and Snacks'](#1-advertising-combination-meat-and-cookies-and-snacks)
     * [2. Reduce all Product Stocks by 15%](#2-reduce-all-product-stocks-by-15)
     * [3. Offer discounts in February and November](#3-offer-discounts-in-february-and-november)
-6. KPIs
+6. [KPIs](#kpis)
     * [1. ARPU = Average Revenue Per User](#1-arpu--average-revenue-per-user)
     * [2. Percentage of Products Wasted](#2-percentage-of-products-wasted)
     * [3. Percent of Monthly Revenue per Category](#3-percent-of-monthly-revenue-per-category)
@@ -88,7 +88,7 @@ ARPU measures the average revenue per client, and the following are its emerging
 
 * **ARPU peaks in March, September, and December**: These three months also have an ARPU above average, but their corresponding number of clients stays about average. Although the higher ARPU implies that each client buys more than average, the average number of clients will lead to a monthly revenue slightly above average (but not near the peak seen in June). 
 
-![ARPUs per month](./Images/arpu.png)
+![ARPUs per month](/en/proj1/arpu.png)
 
 <br><br>
 
@@ -102,7 +102,7 @@ Of the existing eight product categories, there is a stark difference in each ca
 
 * **'Dairy' is the second most contributing category**: Considering the strong livestock sector, it comes as no surprise that 'Dairy' is the second most contributing category to the monthly revenue. The majority of livestock are cows, which provide the milk basis for these dairy products.
 
-![Categories and Monthly Revenue](./Images/category_revenue.png)
+![Categories and Monthly Revenue](/en/proj1/category_revenue.png)
 
 <br><br>
 
@@ -116,7 +116,7 @@ Recognizing the electrical limitations in Paraguayan towns, it was expected that
 
 * **'Cookies and Snacks' Have the Highest Losses**: This category loses 68.22% of its products throughout the year. This figure worsens in February and December, with losses of 80.06% and 83.89%, respectively.
 
-![Average products lost](./Images/waste.png)
+![Average products lost](/en/proj1/waste.png)
 
 <br><br><br>
 
