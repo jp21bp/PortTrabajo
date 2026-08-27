@@ -238,7 +238,7 @@
 <h3 id="hallazgos-insights-recomendaciones-y-sus-enfoques">Hallazgos Insights, Recomendaciones y sus Enfoques</h3>
 <p><strong>ARPU y su tendencia cíclica</strong>: La métrica ARPU (Promedio de Ingreso por Usuario) tiene un patrón de oscilación predecible en los meses del año. Cada 3 meses se encuentra con ARPU altos, seguidos por dos meses de bajo ARPU. El promedio ARPU de los meses altos es 41,940 Gs., mientras el promedio de los meses bajos es 39,384 Gs. Esta dinámica se utiliza en las recomendaciones para crear promociones en los meses con bajo ARPU.  </p>
 <p><strong>Categorías con alta y baja contribución a los ingresos mensuales</strong>: Existen 8 categorías, y cada producto disponible se encuentra en una de estas categorías. &lsquo;Carnicería&rsquo; y &lsquo;Lácteos&rsquo; tienen el impacto más grande en los ingresos mensuales, con un valor de 27.13% y 15.61%, respectivamente. De lo contrario, &lsquo;Conservas&rsquo;, &lsquo;Frutas y Verduras&rsquo; y &lsquo;Galletitas y Snacks&rsquo; tienen un impacto mínimo. Estas dinámicas se utilizan para crear combos de promociones sin asumir mayores pérdidas.</p>
-<p><strong>Mayor pérdida de productos almacenados</strong>: un 53.12% de los productos almacenados se desperdician anualmente. La categoría de &lsquo;Galletitas y Snack&rsquo; tiene las mayores pérdidas anuales, con un 68.22% del almacenamiento perdido. De lo contrario, la categoría &lsquo;Congelados&rsquo; tiene un  Este hecho se puede considerar en la creación de promociones para disminuir la cantidad de productos que se pierden sin venta.</p>
+<p><strong>Mayor pérdida de productos almacenados</strong>: un 53.12% de los productos almacenados se desperdician anualmente. La categoría de &lsquo;Galletitas y Snack&rsquo; tiene las mayores pérdidas anuales, con un 68.22% del almacenamiento perdido. De lo contrario, la categoría &lsquo;Congelados&rsquo; tiene la menor perdidad.  Este hecho se puede considerar en la creación de promociones para disminuir la cantidad de productos que se pierden sin venta.</p>
 <p><br><br>
 La limpieza pre-SQL se encuentran <a href="https://github.com/jp21bp/MariaPY_ES/blob/main/limpieza_preSQL.py"
    target="_blank" rel="noopener noreferrer">
@@ -253,7 +253,10 @@ La limpieza pre-SQL se encuentran <a href="https://github.com/jp21bp/MariaPY_ES/
     AQUÍ
 </a></p>
 <h2 id="estructura-de-los-datos-y-su-verificaciones">Estructura de los Datos y su Verificaciones</h2>
-<p>4 tablas dentro de una base de datos se utilizaron para realizar este análisis; sus formatos CSVs se pueden encontrar AQUÍ. Los componentes de cada tabla son los siguientes:</p>
+<p>4 tablas dentro de una base de datos se utilizaron para realizar este análisis; sus formatos CSVs se pueden encontrar <a href="https://github.com/jp21bp/MariaPY_ES/tree/main/Datos"
+   target="_blank" rel="noopener noreferrer">
+    AQUÍ
+</a>. Los componentes de cada tabla son los siguientes:</p>
 <ol>
 <li>Tabla: categorias - llaves: id_categoria (primary), categoria (text), descripcion (text)</li>
 <li>Tabla: clientes - llaves: id_cliente (primary), nombre (text), apellido (text), email (text), fecha_registro (text)</li>

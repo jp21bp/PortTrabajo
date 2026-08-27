@@ -43,7 +43,7 @@ El siguiente análisis revela los meses con bajos ingresos y cómo crear promoci
 **Categorías con alta y baja contribución a los ingresos mensuales**: Existen 8 categorías, y cada producto disponible se encuentra en una de estas categorías. 'Carnicería' y 'Lácteos' tienen el impacto más grande en los ingresos mensuales, con un valor de 27.13% y 15.61%, respectivamente. De lo contrario, 'Conservas', 'Frutas y Verduras' y 'Galletitas y Snacks' tienen un impacto mínimo. Estas dinámicas se utilizan para crear combos de promociones sin asumir mayores pérdidas. 
 
 
-**Mayor pérdida de productos almacenados**: un 53.12% de los productos almacenados se desperdician anualmente. La categoría de 'Galletitas y Snack' tiene las mayores pérdidas anuales, con un 68.22% del almacenamiento perdido. De lo contrario, la categoría 'Congelados' tiene un  Este hecho se puede considerar en la creación de promociones para disminuir la cantidad de productos que se pierden sin venta. 
+**Mayor pérdida de productos almacenados**: un 53.12% de los productos almacenados se desperdician anualmente. La categoría de 'Galletitas y Snack' tiene las mayores pérdidas anuales, con un 68.22% del almacenamiento perdido. De lo contrario, la categoría 'Congelados' tiene la menor perdidad.  Este hecho se puede considerar en la creación de promociones para disminuir la cantidad de productos que se pierden sin venta. 
 
 <br><br>
 La limpieza pre-SQL se encuentran [AQUÍ](https://github.com/jp21bp/MariaPY_ES/blob/main/limpieza_preSQL.py)
@@ -55,7 +55,7 @@ El análisis de datos se encuentra [AQUÍ](https://github.com/jp21bp/MariaPY_ES/
 
 
 ## Estructura de los Datos y su Verificaciones
-4 tablas dentro de una base de datos se utilizaron para realizar este análisis; sus formatos CSVs se pueden encontrar AQUÍ. Los componentes de cada tabla son los siguientes:
+4 tablas dentro de una base de datos se utilizaron para realizar este análisis; sus formatos CSVs se pueden encontrar [AQUÍ](https://github.com/jp21bp/MariaPY_ES/tree/main/Datos). Los componentes de cada tabla son los siguientes:
 
 1. Tabla: categorias - llaves: id_categoria (primary), categoria (text), descripcion (text)
 2. Tabla: clientes - llaves: id_cliente (primary), nombre (text), apellido (text), email (text), fecha_registro (text)
