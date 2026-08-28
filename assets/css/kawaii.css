@@ -1046,10 +1046,6 @@ hr::after {
   box-shadow: var(--kawaii-shadow-sm);
 }
 
-.cards{
-  /* display: inline-block; */
-}
-
 .kawaii-post-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--kawaii-shadow-xl);
