@@ -16,7 +16,7 @@ I'm **Jordan Parra** - a bilingual, analytical **data professional** with **stat
 * Discovered that 4 out of the 12 regional bodegas analyzed worked below their **break-even point**.
 
 
-### Research and Teaching Assistant - Florida State University
+### Graduate Research Assistant - Florida State University
 **August 2021 - December 2022**
 
 * Analyzed FB15K-237, a **310k sample size dataset**, using Python to investigate predictive modeling systems used to infer hidden relationships from structured data.

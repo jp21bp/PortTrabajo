@@ -96,9 +96,9 @@ title = 'JP'
 
 
   [[params.footer_links]]
-    name = "Project 1"
+    name = "Tourism Demand Prediction Model"
     url = "/projects/project-1"
-    alt = "Proyecto 1"
+    alt = "Prediciendo la Demanda de servicios Turisticos"
 
   [[params.footer_links]]
     name = "Resume"

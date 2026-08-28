@@ -17,10 +17,34 @@
     <loc>http://localhost:1313/es/</loc>
     <lastmod>2026-08-23T12:00:51-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/kmeans/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lasso-regression/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pandas/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/random-forest/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/scikit-learn/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-23T12:00:10-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/projects/project-2/</loc>
     <lastmod>2026-08-23T12:00:10-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/projects/project-1/</loc>
+    <lastmod>2026-08-23T11:59:58-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/matplotlib/</loc>
+    <lastmod>2026-08-23T11:59:58-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2026-08-23T11:59:58-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/projects/</loc>
@@ -36,7 +60,5 @@
     <lastmod>2026-08-23T11:59:01-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
