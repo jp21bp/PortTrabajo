@@ -4,4 +4,4 @@ draft : false
 title : 'Jordan Parra'
 layout : frontpage
 ---
-Summary of about me
+/en/ homepage

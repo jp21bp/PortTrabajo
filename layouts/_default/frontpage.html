@@ -11,17 +11,20 @@
             <span style="color: #f97316;">{{$first}}</span>{{$rest}}
         {{end}}
     </h1>
-    {{ if .Content }}
-    <div class="kawaii-list-description">
-        {{ truncate 10 .Content }}
-    </div>
-    <a href="{{printf `/%s/%s` $lenguaje `about`}}">
-        {{ if eq $lenguaje "es"}}
-            Leer Más
-        {{ else }}
-            Read More
+    {{ $about_sitio := printf "%s/%s" $lenguaje "about.md"}}
+    {{ with .Site.GetPage "section" $about_sitio}}
+        {{ if .Content }}
+        <div class="kawaii-list-description">
+            {{ truncate 10 .Content }}
+        </div>
+        <a href="{{printf `/%s/%s` $lenguaje `about`}}">
+            {{ if eq $lenguaje "es"}}
+                Leer Más
+            {{ else }}
+                Read More
+            {{ end }}
+        </a>
         {{ end }}
-    </a>
     {{ end }}
 </div>
 

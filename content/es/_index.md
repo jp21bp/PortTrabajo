@@ -4,4 +4,4 @@ draft : false
 title : 'Jordan Parra'
 layout : frontpage
 ---
-Resumen de Sobre yo
+/es/ homepage

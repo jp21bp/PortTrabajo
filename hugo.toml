@@ -2,6 +2,29 @@ baseURL = 'https://example.org/'
 # locale = 'en-us'
 title = 'JP'
 
+# Markup configs
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+    guessSyntax = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
+
+
+# Navbar menu
 [menu]
   [[menu.main]]
     name = "Home"
@@ -55,6 +78,7 @@ title = 'JP'
   theme_toggle = true
   # search = true
   # favicon = "/favicon.ico"
+  math = false
 
   # hero_cta = "Explore Demo"
   # hero_cta_link = "/posts"
@@ -91,17 +115,7 @@ title = 'JP'
 
 
 
-[markup]
-  [markup.highlight]
-    style = "github"
-    lineNos = true
-    lineNumbersInTable = false
-    codeFences = true
-    guessSyntax = true
 
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
 
 [outputs]
   # home = ["HTML", "RSS", "JSON"]
