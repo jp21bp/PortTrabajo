@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Jordan Parra on JP</title>
+		<title>Principio on JP</title>
 		<link>http://localhost:1313/es/</link>
-		<description>Recent content in Jordan Parra on JP</description>
+		<description>Recent content in Principio on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
@@ -13,6 +13,13 @@
 			<lastBuildDate>Sun, 23 Aug 2026 12:00:55 -0500</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Contacto</title>
+				<link>http://localhost:1313/es/contact/</link>
+				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
+				<guid>http://localhost:1313/es/contact/</guid>
+				<description>&lt;p&gt;Me pueden contactar a través de correo electrónico a &lt;a style=&#34;color: black;&#34; href=&#34;mailto:peujah65@gmail.com&#34;&gt;&lt;a href=&#34;mailto:peujah65@gmail.com&#34;&#xD;&#xA;   &gt;&#xD;&#xA;    peujah65@gmail.com&#xD;&#xA;&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Adicionalmente, pueden revisar mi perfil  &lt;a href=&#34;https://github.com/jp21bp&#34;&#xD;&#xA;   target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;    GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Sobre Yo</title>
 				<link>http://localhost:1313/es/about/</link>
