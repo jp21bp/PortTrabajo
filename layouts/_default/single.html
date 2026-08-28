@@ -16,12 +16,13 @@
             {{ end }}
         </div>
         <h1 class="kawaii-article-title">
-            {{ $title_parts := split .Title " "}}
+            {{ .Title }}
+            {{/*  {{ $title_parts := split .Title " "}}
             {{ range $title_parts}}
                 {{$first := substr . 0 1}}
                 {{$rest := substr . 1}}
                 <span style="color: #f97316;">{{$first}}</span>{{$rest}}
-            {{end}}
+            {{end}}  */}}
         </h1>
         {{ if .Params.description }}
         <p class="kawaii-article-description">{{ .Params.description }}</p>
