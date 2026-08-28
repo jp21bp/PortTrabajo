@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Jordan Parra on JP</title>
-		<link>https://example.org/es/</link>
+		<link>https://jp21bp.github.io/portfolio/es/</link>
 		<description>Recent content in Jordan Parra on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 23 Aug 2026 12:00:55 -0500</lastBuildDate>
 		
-			<atom:link href="https://example.org/es/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://jp21bp.github.io/portfolio/es/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Contacto</title>
-				<link>https://example.org/es/contact/</link>
+				<link>https://jp21bp.github.io/portfolio/es/contact/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
-				<guid>https://example.org/es/contact/</guid>
+				<guid>https://jp21bp.github.io/portfolio/es/contact/</guid>
 				<description>&lt;p&gt;Me pueden contactar a través de correo electrónico a &lt;a style=&#34;color: black;&#34; href=&#34;mailto:peujah65@gmail.com&#34;&gt;&lt;a href=&#34;mailto:peujah65@gmail.com&#34;&#xD;&#xA;   &gt;&#xD;&#xA;    peujah65@gmail.com&#xD;&#xA;&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Adicionalmente, pueden revisar mi perfil  &lt;a href=&#34;https://github.com/jp21bp&#34;&#xD;&#xA;   target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;    GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Sobre Yo</title>
-				<link>https://example.org/es/about/</link>
+				<link>https://jp21bp.github.io/portfolio/es/about/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
-				<guid>https://example.org/es/about/</guid>
+				<guid>https://jp21bp.github.io/portfolio/es/about/</guid>
 				<description>&lt;p&gt;Soy &lt;strong&gt;Jordan Parra&lt;/strong&gt; - un &lt;strong&gt;profesional de datos&lt;/strong&gt;, bilingüe y analítico, con habilidades en &lt;strong&gt;modelización estadística&lt;/strong&gt; y experiencia práctica en la &lt;strong&gt;integración de decisiones basadas en datos&lt;/strong&gt; en pequeñas empresas. Me especializo en explicar conceptos relacionados con los datos y técnicas de aprendizaje automático de forma clara y accesible a las audiencias que carecen de conocimientos técnicos. Experto en &lt;strong&gt;visualizaciones creativas, SQL y Python&lt;/strong&gt;, transformando &lt;strong&gt;información compleja extraída de los datos en recomendaciones prácticas&lt;/strong&gt;. Apoyo el trabajo en equipo y de colaboración, con experiencia en liderazgo y habilidades de comunicación eficaces.&lt;/p&gt;</description>
 			</item>
 	</channel>

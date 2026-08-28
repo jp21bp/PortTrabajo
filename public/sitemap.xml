@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/es/projects/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/projects/</loc>
     <lastmod>2026-08-23T12:01:10-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/kmeans/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/kmeans/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/lasso-regression/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/lasso-regression/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/es/projects/project-2/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/projects/project-2/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/pandas/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/pandas/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/random-forest/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/random-forest/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/scikit-learn/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/scikit-learn/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/</loc>
     <lastmod>2026-08-23T12:01:06-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/es/projects/project-1/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/projects/project-1/</loc>
     <lastmod>2026-08-23T12:01:04-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/matplotlib/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/matplotlib/</loc>
     <lastmod>2026-08-23T12:01:04-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/sql/</loc>
+    <loc>https://jp21bp.github.io/portfolio/tags/sql/</loc>
     <lastmod>2026-08-23T12:01:04-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/contact/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/contact/</loc>
     <lastmod>2026-08-23T12:00:55-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/es/contact/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/contact/</loc>
     <lastmod>2026-08-23T12:00:55-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/es/about/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/about/</loc>
     <lastmod>2026-08-23T12:00:55-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/es/</loc>
+    <loc>https://jp21bp.github.io/portfolio/es/</loc>
     <lastmod>2026-08-23T12:00:51-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/projects/project-2/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/projects/project-2/</loc>
     <lastmod>2026-08-23T12:00:10-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/projects/project-1/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/projects/project-1/</loc>
     <lastmod>2026-08-23T11:59:58-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/projects/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/projects/</loc>
     <lastmod>2026-08-23T11:59:52-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/about/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/about/</loc>
     <lastmod>2026-08-23T11:59:44-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/en/</loc>
+    <loc>https://jp21bp.github.io/portfolio/en/</loc>
     <lastmod>2026-08-23T11:59:24-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://jp21bp.github.io/portfolio/</loc>
     <lastmod>2026-08-23T11:59:01-05:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://jp21bp.github.io/portfolio/categories/</loc>
   </url>
 </urlset>

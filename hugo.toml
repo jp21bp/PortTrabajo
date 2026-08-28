@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jp21bp.github.io/portfolio/'
 # locale = 'en-us'
 title = 'JP'
 author = 'Jordan Parra'
+canonifyURLs = true
 
 # Markup configs
 [markup]
