@@ -15,7 +15,7 @@
     {{ with .Site.GetPage "section" $about_sitio}}
         {{ if .Content }}
         <div class="kawaii-list-description">
-            {{ truncate 10 .Content }}
+            {{ truncate 200 .Content }}
         </div>
         <a href="{{printf `/%s/%s` $lenguaje `about`}}">
             {{ if eq $lenguaje "es"}}
@@ -50,7 +50,7 @@
                         {{ if .Params.description }}
                         <p class="kawaii-card-description">{{ .Params.description }}</p>
                         {{ else }}
-                        <p class="kawaii-card-description">{{ .Summary | truncate 120 }}</p>
+                        <p class="kawaii-card-description">{{ .Summary }}</p>
                         {{ end }}
                         
                         <div class="kawaii-card-meta">

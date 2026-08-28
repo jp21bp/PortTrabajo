@@ -35,7 +35,7 @@
                     {{ if .Params.description }}
                     <p class="kawaii-card-description">{{ .Params.description }}</p>
                     {{ else }}
-                    <p class="kawaii-card-description">{{ .Summary | truncate 120 }}</p>
+                    <p class="kawaii-card-description">{{ .Summary }}</p>
                     {{ end }}
                     
                     <div class="kawaii-card-meta">
