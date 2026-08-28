@@ -10,55 +10,55 @@
 		
 		
 		
-			<lastBuildDate>Sun, 23 Aug 2026 12:00:10 -0500</lastBuildDate>
+			<lastBuildDate>Sun, 23 Aug 2026 12:01:06 -0500</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>KMeans</title>
 				<link>http://localhost:1313/tags/kmeans/</link>
-				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/tags/kmeans/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lasso Regression</title>
 				<link>http://localhost:1313/tags/lasso-regression/</link>
-				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/tags/lasso-regression/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pandas</title>
 				<link>http://localhost:1313/tags/pandas/</link>
-				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/tags/pandas/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Random Forest</title>
 				<link>http://localhost:1313/tags/random-forest/</link>
-				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/tags/random-forest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Scikit-Learn</title>
 				<link>http://localhost:1313/tags/scikit-learn/</link>
-				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/tags/scikit-learn/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Matplotlib</title>
 				<link>http://localhost:1313/tags/matplotlib/</link>
-				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
 				<guid>http://localhost:1313/tags/matplotlib/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SQL</title>
 				<link>http://localhost:1313/tags/sql/</link>
-				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
 				<guid>http://localhost:1313/tags/sql/</guid>
 				<description></description>
 			</item>

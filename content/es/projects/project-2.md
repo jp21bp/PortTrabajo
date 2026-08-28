@@ -1,7 +1,7 @@
 ---
 date : '2026-08-23T12:01:06-05:00'
 draft : false
-title : 'Proyecto 2'
+title : 'Modelo para Predecir la Demanda del Turismo'
 featured_image : 'es/proj2/TuristasMensuales.png'
 tags : ['Lasso regression', 'Random Forest', 'KMeans', 'Scikit-learn', 'Pandas',]
 summary : 'Perú es un país lleno de historia y cultura, la cual crea un sector turístico dinámico donde las microempresas, como PeruTuur, pueden tener éxito. PeruTur está lista para expandirse a un nivel nacional, y este proyecto examina los conjuntos de datos públicos peruanos para investigar a los turistas: sus puntos de entrada y sitios visitados. Se enfoca en marketing dirigido, segmentación de turistas y predicción de demanda de clientes.'

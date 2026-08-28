@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 23 Aug 2026 12:00:10 -0500</lastBuildDate>
+			<lastBuildDate>Sun, 23 Aug 2026 12:01:06 -0500</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/tags/lasso-regression/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Proyecto 2</title>
+				<link>http://localhost:1313/es/projects/project-2/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>http://localhost:1313/es/projects/project-2/</guid>
+				<description>Perú es un país lleno de historia y cultura, la cual crea un sector turístico dinámico donde las microempresas, como PeruTuur, pueden tener éxito. PeruTur está lista para expandirse a un nivel nacional, y este proyecto examina los conjuntos de datos públicos peruanos para investigar a los turistas: sus puntos de entrada y sitios visitados. Se enfoca en marketing dirigido, segmentación de turistas y predicción de demanda de clientes.</description>
+			</item>
 			<item>
 				<title>Tourism Demand Prediction Model</title>
 				<link>http://localhost:1313/en/projects/project-2/</link>
