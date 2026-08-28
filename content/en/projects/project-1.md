@@ -1,7 +1,7 @@
 ---
 date : '2026-08-23T11:59:58-05:00'
 draft : false
-title : 'Project 1'
+title : "Bodega's Inventory Impact on Revenue"
 featured_image : 'en/proj1/category_revenue.png'
 summary: "In rural Paraguay, it is common for many families to open up a bodega in their house and encounter similar challenges that big market companies face. This project examines the relationship between a bodega, Ña Maria, and her clients, dissecting the small business's changes in revenue throughout the year. It focuses on identifying ARPU trends, product turnover and wastage, and product contributions to monthly revenues."
 ---

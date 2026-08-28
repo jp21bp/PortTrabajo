@@ -1,7 +1,7 @@
 ---
 date : '2026-08-23T12:00:10-05:00'
 draft : false
-title : 'Project 2'
+title : 'Tourism Demand Prediction Model'
 featured_image : 'en/proj2/MonthlyTourists.png'
 summary: "Peru is a country full of history and culture, creating a vast and dynamic tourism sector where small businesses, such as PeruTur, can thrive. PeruTur is ready to scale at a national level, and this project examines the country's public datasets to identify tourists' entry points and sites visited. It focuses on targeted marketing, tourist segmentation, and predicting customer demand." 
 ---
