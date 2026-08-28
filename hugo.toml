@@ -34,18 +34,18 @@ author = 'Jordan Parra'
       alt = "Principio"
 
   [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
-    [menu.main.params]
-      alt = "Sobre Yo"
-
-  [[menu.main]]
     name = "Projects"
     url = "/projects"
     weight = 3
     [menu.main.params]
       alt = "Proyectos"
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+    [menu.main.params]
+      alt = "Sobre Yo"
 
   [[menu.main]]
     name = "Contact"

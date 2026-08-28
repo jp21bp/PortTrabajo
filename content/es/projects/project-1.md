@@ -3,6 +3,8 @@ date : '2026-08-23T12:01:04-05:00'
 draft : false
 title : 'Proyecto 1 - Modificar'
 featured_image : 'es/proj1/categorias_ingresos.png'
+tags : ['SQL', 'Pandas', 'Matplotlib']
+summary : "En el interior de Paraguay, es común que familias emprendan bodegas en sus casas y se enfrenten a desafíos similares a los que tienen las compañías en los mercados grandes. Este proyecto examina la relación entre una bodega, Ña Maria, y sus clientes, analizando los cambios de ingresos a través del año de esta microempresa. Se enfoca en la identificación de tendencias de ARPU, pérdida de productos y la contribución de los productos al ingreso mensual."
 ---
 # Tabla de Contenidos
 1. [Contexto del Proyecto](#contexto-del-proyecto)
