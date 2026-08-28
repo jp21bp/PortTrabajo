@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Projects on JP</title>
-		<link>http://localhost:1313/en/projects/</link>
+		<link>https://example.org/en/projects/</link>
 		<description>Recent content in Projects on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 23 Aug 2026 12:00:10 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/projects/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://example.org/en/projects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Tourism Demand Prediction Model</title>
-				<link>http://localhost:1313/en/projects/project-2/</link>
+				<link>https://example.org/en/projects/project-2/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:10 -0500</pubDate>
-				<guid>http://localhost:1313/en/projects/project-2/</guid>
+				<guid>https://example.org/en/projects/project-2/</guid>
 				<description>Peru is a country full of history and culture, creating a vast and dynamic tourism sector where small businesses, such as PeruTur, can thrive. PeruTur is ready to scale at a national level, and this project examines the country&amp;rsquo;s public datasets to identify tourists&amp;rsquo; entry points and sites visited. It focuses on targeted marketing, tourist segmentation, and predicting customer demand.</description>
 			</item>
 			<item>
 				<title>Bodega&#39;s Inventory Impact on Revenue</title>
-				<link>http://localhost:1313/en/projects/project-1/</link>
+				<link>https://example.org/en/projects/project-1/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/en/projects/project-1/</guid>
+				<guid>https://example.org/en/projects/project-1/</guid>
 				<description>In rural Paraguay, it is common for many families to open up a bodega in their house and encounter similar challenges that big market companies face. This project examines the relationship between a bodega, Ña Maria, and her clients, dissecting the small business&amp;rsquo;s changes in revenue throughout the year. It focuses on identifying ARPU trends, product turnover and wastage, and product contributions to monthly revenues.</description>
 			</item>
 	</channel>

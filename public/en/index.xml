@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Jordan Parra on JP</title>
-		<link>http://localhost:1313/en/</link>
+		<link>https://example.org/en/</link>
 		<description>Recent content in Jordan Parra on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 23 Aug 2026 12:00:55 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://example.org/en/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Contact</title>
-				<link>http://localhost:1313/en/contact/</link>
+				<link>https://example.org/en/contact/</link>
 				<pubDate>Sun, 23 Aug 2026 12:00:55 -0500</pubDate>
-				<guid>http://localhost:1313/en/contact/</guid>
+				<guid>https://example.org/en/contact/</guid>
 				<description>&lt;p&gt;You can contact me at &lt;a style=&#34;color: black;&#34; href=&#34;mailto:peujah65@gmail.com&#34;&gt;&lt;a href=&#34;mailto:peujah65@gmail.com&#34;&#xD;&#xA;   &gt;&#xD;&#xA;    peujah65@gmail.com&#xD;&#xA;&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Aditionally, you can check out my profile in &lt;a href=&#34;https://github.com/jp21bp&#34;&#xD;&#xA;   target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&#xD;&#xA;    GitHub&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About Me</title>
-				<link>http://localhost:1313/en/about/</link>
+				<link>https://example.org/en/about/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:44 -0500</pubDate>
-				<guid>http://localhost:1313/en/about/</guid>
+				<guid>https://example.org/en/about/</guid>
 				<description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Jordan Parra&lt;/strong&gt; - a bilingual, analytical &lt;strong&gt;data professional&lt;/strong&gt; with &lt;strong&gt;statistical modeling&lt;/strong&gt; skills and hands-on experience &lt;strong&gt;integrating data-driven decisions&lt;/strong&gt; in small businesses. I specialize in explaining data concepts and machine learning techniques in a clear and accessible manner to stakeholders without a technical background. Skilled in &lt;strong&gt;creative visualizations, SQL, and Python&lt;/strong&gt;, translating complex &lt;strong&gt;data insights into practical recommendations&lt;/strong&gt;. Collaborative team player with in-field leadership experience and effective communication.&lt;/p&gt;&#xA;&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;community-economic-developer---peace-corps&#34;&gt;Community Economic Developer - Peace Corps&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;May 2023 - October 2025&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
