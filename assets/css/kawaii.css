@@ -764,6 +764,8 @@ hr::after {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   letter-spacing: var(--kawaii-tracking-tight);
+  font-style: italic;
+  padding-right: 0.2em;
 }
 
 .kawaii-nav-menu {
