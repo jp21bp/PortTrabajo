@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 # locale = 'en-us'
 title = 'JP'
+author = 'Jordan Parra'
 
 # Markup configs
 [markup]
@@ -71,6 +72,7 @@ title = 'JP'
 
 
 [params]
+  favicon = 'icon.png'
   description = "JP - Portfolio - Portafolio"
   author = "Jordan Parra"
 

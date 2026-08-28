@@ -1,7 +1,10 @@
 ---
 date : '2026-08-23T11:59:24-05:00'
 draft : false
-title : 'Home'
+title : 'Jordan Parra'
 layout : frontpage
+params:
+    top: 'Home'
+    lang: 'English'
 ---
 /en/ homepage

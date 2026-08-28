@@ -1,4 +1,4 @@
-{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "title" }}{{ .Params.Top }}{{ end }}
 
 {{ define "main" }}
 {{ $lenguaje := substr $.Page.RelPermalink 1 2}}
