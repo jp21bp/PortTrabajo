@@ -60,7 +60,7 @@
                             
                             {{ if .Params.tags }}
                             <div class="kawaii-card-tags">
-                                {{ range first 3 .Params.tags }}
+                                {{ range .Params.tags }}
                                 <span class="kawaii-tag kawaii-tag-small">#{{ . }}</span>
                                 {{ end }}
                             </div>
