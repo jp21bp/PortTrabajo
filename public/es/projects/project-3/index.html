@@ -118,6 +118,8 @@
                 
                 <span class="kawaii-tag">#Tensorflow Avanzado</span>
                 
+                <span class="kawaii-tag">#Aprendizaje Profundo</span>
+                
                 <span class="kawaii-tag">#Finanzas</span>
                 
                 <span class="kawaii-tag">#LSTM</span>
@@ -288,7 +290,7 @@
 <p><strong>Fuerza del Sector Industrial</strong>: Teniendo una inversión fija en las empresas dentro del sector industrial, tiene <strong>1.37 veces</strong>(al escalar volatilidad) y <strong>2.17 veces</strong>(sin escalar volatilidad) mejores rendimientos acumulados que los otros sectores: financiero, materiales y consumo básico.</p>
 <p><strong>Impacto de COVID</strong>: Todas las estrategias sintieron el impacto económico de la pandemia, la cual ocurrió entre el mes de <strong>marzo de 2020</strong>. A pesar de su influencia negativa, todas las estrategias también empezaron a resaltar y superar la pandemia empezando en <strong>abril 2020</strong>.</p>
 <p><strong>Referencia del Benchmark</strong>: El benchmark que se utilizó fue el índice SPLAC del sector financiero en Sudamérica. Las comparaciones revelan que <strong>todas</strong> las inversiones directas (en las 40 empresas utilizadas por el SPLAC) resultan en mejores resultados que una inversión directa en el índice.</p>
-<p><img src="http://localhost:1313/portfolio/es/proj3/CompoundedReturns.png" alt="Retorno Acumulado"></p>
+<p><img src="http://localhost:1313/portfolio/es/proj3/RetornosAcumulados.png" alt="Retorno Acumulado"></p>
 <h2 id="detalles-de-las-hallazgos-insights">Detalles de las Hallazgos Insights</h2>
 <h3 id="ratio-sharpe-de-0966-en-el-sector-industrial">Ratio Sharpe de 0.966 en el Sector Industrial</h3>
 <p>Dentro de las estrategias de asignación fija, enfocándose en el sector industrial, se pudo construir el portafolio más fuerte entre todas las estrategias sin ML.</p>
@@ -320,7 +322,7 @@
 <p>Los modelos de las ventanas deslizantes obtuvieron un <strong>promedio ratio Sharpe de 0.695 y 0.645</strong>(al escalar la volatilidad), mientras los modelos de las ventanas expansivas tenían <strong>0.809 y 0.769</strong>(al escalar la volatilidad). En otras palabras, la segunda estrategia predice pesos (de las acciones) que resultan en portafolios con ratios de Sharpe más altos.</p>
 <p>Por el contrario, se registra que en ambas estrategias los modelos que utilizaban todos los indicadores obtuvieron un ratio Sharpe <strong>más que 1.39 (ventanas deslizantes) y 1.19 (ventas expansivas) veces</strong> que todos los demás. Incluso, el modelo con ventana deslizante que utilizaba todos los indicadores obtuvo mejores resultados que los modelos de ventanas expansivas que no utilizaban todos los indicadores.</p>
 <p>Adicionalmente, el <strong>modelo con ventanas expansivas</strong> tiene mejores resultados al <strong>no escalar la volatilidad</strong> (con ratios de 0.905 y 1.254). De lo contrario, el <strong>modelo con ventanas deslizantes</strong> tiene los mejores resultados cuando <strong>sí se escala la volatilidad</strong> (con ratios de 0.844 y 1.252).</p>
-<p><img src="http://localhost:1313/portfolio/es/proj3/IndicatorTables.png" alt="Tabla"></p>
+<p><img src="http://localhost:1313/portfolio/es/proj3/TablaIndicadores.png" alt="Tabla"></p>
 <h2 id="recomendaciones">Recomendaciones</h2>
 <h3 id="la-estrategia-adecuada-le-corresponde-al-usuario">La Estrategia Adecuada le Corresponde al Usuario</h3>
 <p>Todas las estrategias presentadas se destacan con 10 diferentes métricas, pero ninguna estrategia es la mejor en todas estas métricas. Para desarrollar la mejor estrategia, se recomienda identificar las características y preferencias del usuario.</p>
