@@ -135,7 +135,222 @@
     </header>
     
     <div class="kawaii-content">
-        <p>asfafas</p>
+        <h1 id="índice-de-contenidos">Índice de Contenidos</h1>
+<ol>
+<li><a href="#contexto-del-proyecto"
+   >
+    Contexto del Proyecto
+</a>
+<ul>
+<li><a href="#hallazgos-insights-recomendaciones-y-sus-enfoques"
+   >
+    Hallazgos Insights, Recomendaciones y sus Enfoques
+</a></li>
+</ul>
+</li>
+<li><a href="#estructura-de-los-datos-y-su-verificaciones"
+   >
+    Estructura de los Datos y su Verificaciones
+</a></li>
+<li><a href="#resumen-ejecutivo"
+   >
+    Resumen Ejecutivo
+</a>
+<ul>
+<li><a href="#resumen-de-descubrimientos"
+   >
+    Resumen de Descubrimientos 
+</a></li>
+<li><a href="#tendencia-de-los-descubrimientos"
+   >
+    Tendencia de los Descubrimientos
+</a></li>
+</ul>
+</li>
+<li><a href="#detalles-de-las-hallazgos-insights"
+   >
+    Detalles de las Hallazgos Insights
+</a>
+<ul>
+<li><a href="#ratio-sharpe-de-0966-en-el-sector-industrial"
+   >
+    Ratio Sharpe de 0.966 en el Sector Industrial
+</a></li>
+<li><a href="#impacto-de-covid"
+   >
+    Impacto del COVID-19
+</a></li>
+<li><a href="#debilidad-del-benchmark"
+   >
+    Debilidad del Benchmark
+</a></li>
+</ul>
+</li>
+<li><a href="#modelos-predicciones-y-sus-impactos"
+   >
+    Modelos, Predicciones y sus Impactos
+</a>
+<ul>
+<li><a href="#modelos-con-ventanas-deslizantes"
+   >
+    Modelos con Ventanas Deslizantes
+</a></li>
+<li><a href="#modelos-con-ventanas-expansivas"
+   >
+    Modelos con Ventanas Expansivas
+</a></li>
+<li><a href="#resultados"
+   >
+    Resultados
+</a></li>
+</ul>
+</li>
+<li><a href="#recomendaciones"
+   >
+    Recomendaciones
+</a>
+<ul>
+<li><a href="#la-estrategia-adecuada-le-corresponde-al-usuario"
+   >
+    La Estrategia Adecuada le Corresponde al Usuario
+</a></li>
+<li><a href="#enfoque-en-el-sector-industrial"
+   >
+    Enfoque en el Sector Industrial
+</a></li>
+<li><a href="#ml-con-mejores-resultados"
+   >
+    ML con Mejores Resultados
+</a></li>
+</ul>
+</li>
+<li><a href="#kpis"
+   >
+    KPIs
+</a>
+<ul>
+<li><a href="#ratio-sharpe"
+   >
+    Ratio Sharpe
+</a></li>
+<li><a href="#retorno-compuesto"
+   >
+    Retorno Compuesto
+</a></li>
+<li><a href="#pl-ratio"
+   >
+    P/L Ratio
+</a></li>
+</ul>
+</li>
+<li><a href="#suposiciones-y-avisos"
+   >
+    Suposiciones y Avisos
+</a></li>
+</ol>
+<h2 id="contexto-del-proyecto">Contexto del Proyecto</h2>
+<p>Capital Andina (CA) es una empresa que gestiona activos en Perú y se especializa en inversiones de renta variable y portafolios en el sector financiero de Sudamérica. Su estrategia de diversificación incluye a empresas financieras que cotizan en mercados dentro de Brasil, Chile, Colombia y Perú. Ellos principalmente se guían por el índice SPLAC, el cual contiene las 40 empresas más grandes en América Latina, y la usan como benchmark.</p>
+<p>CA reconoce los impactos positivos del Machine Learning (ML) y lo quiere integrar en sus estrategias de portafolios. Adicionalmente, ellos presienten que el benchmark actual no es el más adecuado para los movimientos financieros, ya que sus estrategias actuales lo superan consistentemente. CA desea desarrollar un marco de análisis de portafolios basado en datos que permita detallar decisiones informadas en el uso de ML contra estrategias tradicionales.</p>
+<p>Considerando la complejidad de inversiones, las estrategias de portafolio se evaluarán a través de las siguientes métricas financieras: retorno esperado (E(R)), Volatilidad (Std(R)), ratio Sharpe, Downside Deviation (DD), ratio Sortino, Max Drawdown (MD), Porcentaje de retornos positivos (% Pos.(R)) y ratio de ganancias/pérdidas (P/L Ratio). Adicionalmente, se <strong>escalará la volatilidad</strong> para poder eliminar la volatilidad del mercado y enfocarse en las características de cada estrategia.</p>
+<br>
+<h3 id="hallazgos-insights-recomendaciones-y-sus-enfoques">Hallazgos Insights, Recomendaciones y sus Enfoques</h3>
+<p><strong>Sectores Empresariales</strong>: Una de las estrategias utilizadas por CA se enfoca en asignación fija (de pesos) a través de todo el tiempo. Ellos determinan esta asignación basado en el sector de cada empresa, y algunos candidatos son: energía, financiero, salud, materiales, utilidades, etc. El análisis demuestra que la inversión enfocada en el sector industrial resulta en mejores rendimientos y ratio Sharpe a través de todas las estrategias sin ML.</p>
+<p><strong>ML vs. no-ML</strong>: La diferencia entre estas dos estrategias se nota en métricas específicas. Mientras las estrategias ML son superiores en el <strong>ratio Sharpe y retorno acumulado</strong>, las estrategias no-ML son mejores en la <strong>Volatilidad y Porcentaje de retorno positivo</strong>. La estrategia adecuada depende de las preferencias que el usuario quiere implementar en sus inversiones.</p>
+<p><strong>Benchmark</strong>: La precognición de CA se convierte en certeza al investigar que todas las estrategias obtuvieron mejores rendimientos que el benchmark. A pesar de eso, el benchmark es una buena referencia al poder capturar turbulencias en el mercado, como la pandemia del COVID. Cuando estos remolinos aparecen en otras estrategias, se pueden comparar con el benchmark para identificar las raíces de estas turbulencias.</p>
+<h2 id="estructura-de-los-datos-y-su-verificaciones">Estructura de los Datos y su Verificaciones</h2>
+<p>SPLAC es un índice financiero que consiste en las 40 empresas suramericanas de tamaño y liquidez más alta. Estas compañías varían a través del tiempo, entonces las empresas seleccionadas fueron las que estaban dentro de estas 40 empresas el 31 de agosto de 2026. Reconociendo que no todas estas compañías empezaron al mismo tiempo, se aplicó una filtración para seleccionar a las compañías que estaban activas el 28 de febrero del 2006. Esta fecha se escogió para poder incluir la crisis del 2008 dentro de los datos.</p>
+<p>La información histórica se descargó de YFinance, con los siguientes detalles:</p>
+<ul>
+<li>Fechas (post-filtración): 28/2/2006 - 28/8/2026</li>
+<li>Compañías (post-filtración): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA.CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA</li>
+<li>Indicadores: Cierre Ajustado, Cierre, Alto, Bajo, Apertura, y Volumen.</li>
+</ul>
+<p><br><br></p>
+<p>La transformación de datos crudos a indicadores financieros se puede encontrar <a href="https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/feat_eng.py"
+   target="_blank" rel="noopener noreferrer">
+    AQUÍ
+</a></p>
+<p>La creación y entrenamiento de los modelos TF, y el preprocesamiento de los datos, se pueden encontrar <a href="https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/tf_modelos.py"
+   target="_blank" rel="noopener noreferrer">
+    AQUÍ
+</a></p>
+<p>La evaluación de las estrategias ML y no-ML se puede encontrar <a href="https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/evaluaciones.py"
+   target="_blank" rel="noopener noreferrer">
+    AQUÍ
+</a></p>
+<h2 id="resumen-ejecutivo">Resumen Ejecutivo</h2>
+<h3 id="resumen-de-descubrimientos">Resumen de Descubrimientos</h3>
+<p>Diferentes sectores de las empresas suramericanas tienen momentos donde son más fuertes o más débiles que los otros sectores. A pesar de esta variación, el <strong>sector industrial</strong> ha obtenido más éxitos y rendimientos que todos los demás, indicando que es un buen sector para hacer inversiones.</p>
+<p>Por otro lado, las estrategias desarrolladas con modelos ML ofrecen una alternativa competitiva a modelos tradicionales. En promedio, los retornos acumulados (al escalar volatilidad) con estrategias de ML obtuvieron <strong>229.17%</strong> de la inversión inicial, mientras que las estrategias sin ML obtuvieron un <strong>172.23%</strong>. Adicionalmente, los ratios de Sharpe también confirman esta diferencia, con las estrategias ML obteniendo un promedio de <strong>0.707</strong>, mientras que las estrategias sin ML obtuvieron <strong>0.566</strong>.</p>
+<p>Por el contrario, las estrategias sin ML superan a las estrategias ML en las siguientes categorías: Volatilidad (0.068 vs. 0.075) y Porcentaje de retornos positivos (52.86% vs. 51.83%). Diferentes métricas tienen diferentes niveles de importancia para cada usuario, señalando que la mejor estrategia depende de las preferencias del usuario.</p>
+<br>
+<h3 id="tendencia-de-los-descubrimientos">Tendencia de los Descubrimientos</h3>
+<p><strong>Fuerza del Sector Industrial</strong>: Teniendo una inversión fija en las empresas dentro del sector industrial, tiene <strong>1.37 veces</strong>(al escalar volatilidad) y <strong>2.17 veces</strong>(sin escalar volatilidad) mejores rendimientos acumulados que los otros sectores: financiero, materiales y consumo básico.</p>
+<p><strong>Impacto de COVID</strong>: Todas las estrategias sintieron el impacto económico de la pandemia, la cual ocurrió entre el mes de <strong>marzo de 2020</strong>. A pesar de su influencia negativa, todas las estrategias también empezaron a resaltar y superar la pandemia empezando en <strong>abril 2020</strong>.</p>
+<p><strong>Referencia del Benchmark</strong>: El benchmark que se utilizó fue el índice SPLAC del sector financiero en Sudamérica. Las comparaciones revelan que <strong>todas</strong> las inversiones directas (en las 40 empresas utilizadas por el SPLAC) resultan en mejores resultados que una inversión directa en el índice.</p>
+<p><img src="http://localhost:1313/portfolio/es/proj3/CompoundedReturns.png" alt="Retorno Acumulado"></p>
+<h2 id="detalles-de-las-hallazgos-insights">Detalles de las Hallazgos Insights</h2>
+<h3 id="ratio-sharpe-de-0966-en-el-sector-industrial">Ratio Sharpe de 0.966 en el Sector Industrial</h3>
+<p>Dentro de las estrategias de asignación fija, enfocándose en el sector industrial, se pudo construir el portafolio más fuerte entre todas las estrategias sin ML.</p>
+<ul>
+<li><strong>Ratio Sharpe</strong>: esta estrategia obtuvo el ratio Sharpe <strong>más alto de 0.966 y 0.929</strong> (sin escalar la volatilidad).</li>
+<li><strong>Retorno Esperado</strong>: al igual, esta estrategia obtiene los mejores retornos esperados anuales, con 0.184 y 0.055 (sin escalar la volatilidad)</li>
+</ul>
+<br>
+<h3 id="impacto-de-covid">Impacto de COVID</h3>
+<p>La pandemia del COVID se sintió en todos los aspectos globales, incluyendo al sector financiero.</p>
+<ul>
+<li><strong>Todas las estrategias</strong>, sea con o sin ML, pueden capturar los impactos drásticos del COVID-19.</li>
+<li>Las estrategias <strong>con volatilidad escalada</strong> fueron <strong>menos afectadas</strong> por estos impactos, al tener una caída más mesurada y con menos pérdidas.</li>
+<li>Todas las estrategias, incluyendo el benchmark, pudieron resaltar sus pérdidas al terminar la pandemia.</li>
+</ul>
+<br>
+<h3 id="debilidad-del-benchmark">Debilidad del Benchmark</h3>
+<p>En benchmark, el índice SPLAC obtuvo los mejores resultados dentro del primer año del rango de fechas, pero a través del tiempo fue superado por todos los otros modelos. Considerando que <strong>todos</strong> los otros modelos le superan al índice, se identifica que este benchmark no tiene las mejores estrategias para manejar los movimientos de las 40 mejores empresas de Suramérica.</p>
+<h2 id="modelos-predicciones-y-sus-impactos">Modelos, Predicciones y sus Impactos</h2>
+<p>Existen varias formas para crear un modelo que capture las dependencias temporales dentro de un conjunto de datos. En este caso, dos estrategias principales se estudiaron: ventanas deslizantes y ventanas expansivas. Adicionalmente, diferentes combinaciones de las siguientes <strong>métricas financieras</strong>, de cada acción, se investigaron: Precio de Cierre (P), Retornos Logarítmicos (LR), TEMA (T), HLC3 (H) y OBV (O).</p>
+<br>
+<h3 id="modelos-con-ventanas-deslizantes">Modelos con Ventanas Deslizantes</h3>
+<p>En esta estrategia, las ventanas de los datos se deslizaban anualmente, señalando que solo los datos dentro de dos años se utilizaban para entrenar el modelo. Se crearon tres modelos diferentes con esta estrategia. Las arquitecturas eran iguales, pero los datos procesados tenían las siguientes diferencias: datos 1 usaban los indicadores P y RL; datos 2 usaban los indicadores T, H, y O; datos 3 usaban todos los indicadores.</p>
+<br>
+<h3 id="modelos-con-ventanas-expansivas">Modelos con Ventanas Expansivas</h3>
+<p>En esta estrategia, las ventanas se expandían anualmente para capturar todos los datos desde el comienzo (disponible) hasta el día antes de cuando empiezan los datos de pruebas. Similar a la otra estrategia, se crearon tres diferentes modelos con arquitecturas iguales pero diferentes indicadores en cada conjunto.</p>
+<br>
+<h3 id="resultados">Resultados</h3>
+<p>Los modelos de las ventanas deslizantes obtuvieron un <strong>promedio ratio Sharpe de 0.695 y 0.645</strong>(al escalar la volatilidad), mientras los modelos de las ventanas expansivas tenían <strong>0.809 y 0.769</strong>(al escalar la volatilidad). En otras palabras, la segunda estrategia predice pesos (de las acciones) que resultan en portafolios con ratios de Sharpe más altos.</p>
+<p>Por el contrario, se registra que en ambas estrategias los modelos que utilizaban todos los indicadores obtuvieron un ratio Sharpe <strong>más que 1.39 (ventanas deslizantes) y 1.19 (ventas expansivas) veces</strong> que todos los demás. Incluso, el modelo con ventana deslizante que utilizaba todos los indicadores obtuvo mejores resultados que los modelos de ventanas expansivas que no utilizaban todos los indicadores.</p>
+<p>Adicionalmente, el <strong>modelo con ventanas expansivas</strong> tiene mejores resultados al <strong>no escalar la volatilidad</strong> (con ratios de 0.905 y 1.254). De lo contrario, el <strong>modelo con ventanas deslizantes</strong> tiene los mejores resultados cuando <strong>sí se escala la volatilidad</strong> (con ratios de 0.844 y 1.252).</p>
+<p><img src="http://localhost:1313/portfolio/es/proj3/IndicatorTables.png" alt="Tabla"></p>
+<h2 id="recomendaciones">Recomendaciones</h2>
+<h3 id="la-estrategia-adecuada-le-corresponde-al-usuario">La Estrategia Adecuada le Corresponde al Usuario</h3>
+<p>Todas las estrategias presentadas se destacan con 10 diferentes métricas, pero ninguna estrategia es la mejor en todas estas métricas. Para desarrollar la mejor estrategia, se recomienda identificar las características y preferencias del usuario.</p>
+<p>Las estrategias de <strong>asignación fija tienen los mejores ratios</strong> (con y sin escalar la volatilidad), pero tienen uno de los más MD con -0.436. Un usuario que intenta minimizar los sustos que tiene al enfrentarse con una caída de precios no va a preferir esta estrategia.</p>
+<p>Por otro lado, un usuario puede priorizar el ratio de las ganancias a pérdidas (&ldquo;P/L Ratio&rdquo;), teniendo en cuenta que es posible sacrificar un óptimo ratio Sharpe. Existen diferentes combinaciones que se pueden formar al considerar las metas del usuario.</p>
+<br>
+<h3 id="enfoque-en-el-sector-industrial">Enfoque en el Sector Industrial</h3>
+<p>El sector industrial tiene una gran corrida, obteniendo alrededor de <strong>250% de retorno compuesto</strong> en la inversión inicial. En corto plazo, se recomienda invertir una gran mayoría de los recursos en el sector industrial, siempre y cuando se diversifique con otras acciones. A largo plazo, se recomienda seguir investigando los movimientos del sector, considerando que un cambio del mercado pueda empezar a fortalecer otro sector.</p>
+<br>
+<h3 id="ml-con-mejores-resultados">ML con Mejores Resultados</h3>
+<p>Se registra que los ML modelos, en ambas estrategias de ventanilla (deslizante y expansiva), obtuvieron mejores rendimientos al utilizar <strong>todos los indicadores</strong>. Se recomienda coleccionar más indicadores para mejorar las predicciones de los modelos.</p>
+<p>Adicionalmente, se nota que las <strong>ventanas expansivas obtuvieron mejores resultados que las ventanas deslizantes</strong>. Este patrón ayudaría a capturar cambios históricamente drásticos, señalando al modelo que cambie sus predicciones. En otras palabras, tener más información histórica de las acciones mejora los rendimientos del modelo.</p>
+<h2 id="kpis">KPIs</h2>
+<h3 id="ratio-sharpe">Ratio Sharpe</h3>
+<p>(Retornos Esperados)/(Volatilidad de Retornos)</p>
+<p>Objetivo: Aumentar el ratio Sharpe del portafolio actual por 67%. Para adquirir estos resultados se utilizarán los 4 mejores modelos para determinar los pesos de las acciones que tengan los mejores rendimientos sin aumentar la volatilidad.</p>
+<br>
+<h3 id="retorno-compuesto">Retorno Compuesto</h3>
+<p>\prod_{i=1}^t (1 + retorno_simple_i)</p>
+<p>Enfoque: Mejorar el retorno compuesto del portafolio. Esto se modificará por sí mismo al mejorar los rendimientos del portafolio.</p>
+<br>
+<h3 id="pl-ratio">P/L Ratio</h3>
+<p>(Promedio de Ganancias)/(Promedio de Perdidas)</p>
+<p>Enfoque: Esta métrica afecta el bienestar psicológico del usuario, ya que demuestra la cantidad de veces que la estrategia termina con retornos positivos.</p>
+<h2 id="suposiciones-y-avisos">Suposiciones y Avisos</h2>
+<p>Este análisis desarrolló las siguientes asunciones:</p>
+<ul>
+<li>El &ldquo;Cierre Ajustado&rdquo; del YFinance refleja el valor de las acciones que es utilizado por los inversionistas.</li>
+<li>Los datos del mercado bursátil no tienen estacionariedad y son naturalmente impredecibles.</li>
+</ul>
 
     </div>
     

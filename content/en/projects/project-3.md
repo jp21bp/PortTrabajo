@@ -58,6 +58,7 @@ The historical data was downloaded from YFinance, with the following details:
 * Indicators: Adjusted Close, Close, High, Low, Open, and Volume.
 
 <br><br>
+
 The transformation of raw data into financial tecnical indicators can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/feat_eng.py)
 
 The TF model creation, training, and data pre-processing can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/tf_models.py)
