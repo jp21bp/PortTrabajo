@@ -14,6 +14,13 @@
 		
 			<atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Hypothesis Testing</title>
+				<link>http://localhost:1313/portfolio/tags/hypothesis-testing/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/hypothesis-testing/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>KMeans</title>
 				<link>http://localhost:1313/portfolio/tags/kmeans/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
@@ -28,24 +35,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Pandas</title>
-				<link>http://localhost:1313/portfolio/tags/pandas/</link>
-				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/pandas/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Random Forest</title>
 				<link>http://localhost:1313/portfolio/tags/random-forest/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/portfolio/tags/random-forest/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Scikit-Learn</title>
-				<link>http://localhost:1313/portfolio/tags/scikit-learn/</link>
-				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/scikit-learn/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -56,10 +49,59 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Pandas</title>
+				<link>http://localhost:1313/portfolio/tags/pandas/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/pandas/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>SQL</title>
 				<link>http://localhost:1313/portfolio/tags/sql/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
 				<guid>http://localhost:1313/portfolio/tags/sql/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Advanced Tensorflow</title>
+				<link>http://localhost:1313/portfolio/tags/advanced-tensorflow/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/advanced-tensorflow/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CNN</title>
+				<link>http://localhost:1313/portfolio/tags/cnn/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/cnn/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finance</title>
+				<link>http://localhost:1313/portfolio/tags/finance/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/finance/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Finanzas</title>
+				<link>http://localhost:1313/portfolio/tags/finanzas/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/finanzas/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>LSTM</title>
+				<link>http://localhost:1313/portfolio/tags/lstm/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/lstm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tensorflow Avanzado</title>
+				<link>http://localhost:1313/portfolio/tags/tensorflow-avanzado/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/tensorflow-avanzado/</guid>
 				<description></description>
 			</item>
 	</channel>

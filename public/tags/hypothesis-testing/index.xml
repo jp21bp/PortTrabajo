@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Scikit-Learn on JP</title>
-		<link>http://localhost:1313/portfolio/tags/scikit-learn/</link>
-		<description>Recent content in Scikit-Learn on JP</description>
+		<title>Hypothesis Testing on JP</title>
+		<link>http://localhost:1313/portfolio/tags/hypothesis-testing/</link>
+		<description>Recent content in Hypothesis Testing on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Sun, 23 Aug 2026 12:01:06 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/portfolio/tags/scikit-learn/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/portfolio/tags/hypothesis-testing/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Modelo para Predecir la Demanda del Turismo</title>
 				<link>http://localhost:1313/portfolio/es/projects/project-2/</link>

@@ -116,15 +116,13 @@
             
             <div class="kawaii-tags">
                 
-                <span class="kawaii-tag">#Lasso regression</span>
-                
-                <span class="kawaii-tag">#Random Forest</span>
+                <span class="kawaii-tag">#Hypothesis Testing</span>
                 
                 <span class="kawaii-tag">#KMeans</span>
                 
-                <span class="kawaii-tag">#Scikit-learn</span>
+                <span class="kawaii-tag">#Random Forest</span>
                 
-                <span class="kawaii-tag">#Pandas</span>
+                <span class="kawaii-tag">#Lasso Regression</span>
                 
             </div>
             
@@ -231,17 +229,17 @@
     KPIs
 </a>
 <ul>
-<li><a href="#1-cambio-porcentual-de-clientes"
+<li><a href="#cambio-porcentual-de-clientes"
    >
-    1. Cambio Porcentual de Clientes
+    Cambio Porcentual de Clientes
 </a></li>
-<li><a href="#2-presupuesto-dinamico"
+<li><a href="#presupuesto-dinamico"
    >
-    2. Presupuesto Dinamico
+    Presupuesto Dinamico
 </a></li>
-<li><a href="#3-ratio-de-sitios"
+<li><a href="#ratio-de-sitios"
    >
-    3. Ratio de Sitios
+    Ratio de Sitios
 </a></li>
 </ul>
 </li>
@@ -252,11 +250,11 @@
 </ol>
 <h2 id="contexto-del-proyecto">Contexto del Proyecto</h2>
 <p>PeruTur es una compañía pequeña que provee servicios turísticos a visitantes internacionales que ingresan al Perú. Actualmente operan en la ciudad de Lima y quieren expandir hacia todo el país, pero no saben la mejor estrategia para promocionar sus servicios al nivel nacional. Este proyecto utiliza datos públicos peruanos que contienen información sobre los turistas internacionales y sitios turísticos en su entorno durante los años de <strong>2019-2025</strong>.</p>
-<p>El análisis y los modelos demuestran que los turistas se pueden agrupar dependiendo de la <strong>Oficina de Control Migratorio (OCM)</strong> de su entrada, con las cuales se puede generar targeted marketing para optimizar las atracciones promocionales. Adicionalmente, se revela que las visitas turísticas tienen una tendencia mensual a través de todo el año, donde la cantidad de turistas es mínima en febrero** y **máxima en julio y agosto. Finalmente, existen una variedad de sitios turísticos sin costo al ingresar, creando una oportunidad para minimizar los costos de sus viajes turísticos.</p>
+<p>El análisis y los modelos demuestran que los turistas se pueden agrupar dependiendo de la <strong>Oficina de Control Migratorio (OCM)</strong> de su entrada, con las cuales se puede generar targeted marketing para optimizar las atracciones promocionales. Adicionalmente, se revela que las visitas turísticas tienen una tendencia mensual a través de todo el año, donde la cantidad de turistas es mínima en <strong>febrero</strong> y <strong>máxima en julio y agosto</strong>. Finalmente, existen una variedad de sitios turísticos sin costo al ingresar, creando una oportunidad para minimizar los costos de sus viajes turísticos.</p>
 <p>Se destacan los enfoques en targeted marketing, presupuesto dinámico y los sitios gratis al crear una estrategia para ayudar a PeruTur a expandirse a un nivel nacional.</p>
 <h3 id="hallazgos-insights-recomendaciones-y-sus-enfoques">Hallazgos Insights, Recomendaciones y sus Enfoques</h3>
 <p><strong>Concentración de Visitantes y sus Países de Origen</strong>: 95% de los visitantes internacionales provienen de <strong>25 países</strong>, con los top 6 países culminando en 70.6%. Adicionalmente, 5 de estos 6 países son suramericanos. Esto crea una oportunidad para limitar los países para enfocarse y hacer targeted marketing hacia cada uno de estos países.</p>
-<p>**Oficinas de Control Migratorio (OCMs) y los Países Vecinos: 4 de los 81 OCMs nacionales registran el <strong>94.67%</strong> de todos los ingresos internacionales hacia Perú. Adicionalmente, la mayoría de los ingresantes en cada uno de estos 4 OCMs provienen del país vecino más cercano (con la excepción del Aeropuerto Internacional en Lima). Al desarrollar promociones alrededor de estos OCMs, se recomienda enfocar en atraer turistas de los países vecinos más cercanos.</p>
+<p><strong>Oficinas de Control Migratorio (OCMs) y los Países Vecinos</strong>: 4 de los 81 OCMs nacionales registran el <strong>94.67%</strong> de todos los ingresos internacionales hacia Perú. Adicionalmente, la mayoría de los ingresantes en cada uno de estos 4 OCMs provienen del país vecino más cercano (con la excepción del Aeropuerto Internacional en Lima). Al desarrollar promociones alrededor de estos OCMs, se recomienda enfocar en atraer turistas de los países vecinos más cercanos.</p>
 <p><strong>Disponibilidad de Sitios Turísticos sin Ingresos</strong>: Machu Picchu, siendo una de las maravillas del mundo, es el sitio turístico más popular en Perú, implicando que la mayoría de los clientes de PeruTur van a tener deseos de viajar ahí. El análisis demostró que existen 16 sitios turísticos <strong>gratis</strong> dentro de un radio de 25 kilómetros de Machu Picchu. Este hecho crea una oportunidad de crear promociones que incluyan esos sitios sin incurrir en costos adicionales (aparte de la gasolina).</p>
 <p><br><br>
 El proceso de web scraping de datos se encuentra <a href="https://github.com/jp21bp/PeruTur_ES/blob/main/scraper.py"
@@ -284,24 +282,33 @@ El proceso de web scraping de datos se encuentra <a href="https://github.com/jp2
 <p>La mayoría de visitantes internacionales al Perú se concentran dentro de 25 países, donde Chile, EE. UU. y Ecuador ocupan 56.4% de los visitantes anuales. Esto presenta una oportunidad a PeruTur para que se enfoque en una pequeña cantidad de países y desarrolle targeted marketing. Adicionalmente,  los OCMs de entrada de estos visitantes se parten entre 55.76% y 28.41% para el Aeropuerto de Lima y Santa Rosa, respectivamente. Este hecho sugiere que las ubicaciones de marketing se tienen que enfocar en el entorno de estos OCMs para llegar a la mayoría de sus clientes potenciales. En otro punto, julio y agosto reciben 21.75% de los visitantes anuales, y son los meses donde PeruTur puede invertir más para poder complacer la demanda de servicios turísticos. Finalmente, Machu Picchu es el sitio turístico más popular y tiene en su alrededor otros sitios sin costo al ingresar. PeruTur puede aprovechar esta oportunidad financiera para ampliar sus paquetes promocionales sin tener gastos adicionales (aparte de la gasolina).</p>
 <h3 id="tendencia-de-los-descubrimientos">Tendencia de los Descubrimientos</h3>
 <p><strong>Suramérica y Vecinos Peruanos</strong>: 5 de los top 6 países con visitantes internacionales son los vecinos del Perú, y todos los países suramericanos se encuentran dentro de los 25 países con la mayor contribución.</p>
-<p><strong>Temporadas de Turismo</strong>: En todos los años, julio y agosto tienen la mayor cantidad de visitantes internacionales, mientras febrero tiene la mínima cantidad con solo 4.84* de todos los visitantes anuales.</p>
+<p><strong>Temporadas de Turismo</strong>: En todos los años, julio y agosto tienen la mayor cantidad de visitantes internacionales, mientras febrero tiene la mínima cantidad con solo <strong>4.84</strong> de todos los visitantes anuales.</p>
 <p><strong>Sitios gratis alrededor de Machu Picchu</strong>: Dentro de un radio de 25 kilómetros de Machu Picchu se encuentran 16 sitios con ingresos gratis, con la mayoría de ellos ubicados a su norte.</p>
 <h2 id="detalles-de-los-hallazgos-insights">Detalles de los Hallazgos Insights</h2>
 <h3 id="concentración-de-564-de-visitantes-internacionales">Concentración de 56.4% de Visitantes Internacionales</h3>
 <p>Reconociendo que el Perú tiene una abundancia de sitios históricos y culturales, incluyendo una de las maravillas del mundo, se esperaba que haya un porcentaje equilibrado de los ingresantes de todos los países. El análisis demostró otras revelaciones.</p>
 <ul>
 <li><strong>Chile</strong>: tiene 32.9% de <strong>todos</strong> los visitantes internacionales</li>
-<li>**Top 3 Países: ocupan 56.4% de visitantes internacionales</li>
-<li>**Top 6 Países: ocupan 70.6% de visitantes internacionales</li>
+<li><strong>Top 3 Países</strong>: ocupan 56.4% de visitantes internacionales</li>
+<li><strong>Top 6 Países</strong>: ocupan 70.6% de visitantes internacionales</li>
 </ul>
 <p>Patrones Destacados:</p>
 <ul>
 <li><strong>Consistencia Mensual</strong>
-    - Dentro de cada mes, los top 3 países generalmente son Chile, EE. UU. y Ecuador. Esta consistencia ayudará a crear marketing intencional en todos los meses del año.</li>
+<ul>
+<li>Dentro de cada mes, los top 3 países generalmente son Chile, EE. UU. y Ecuador. Esta consistencia ayudará a crear marketing intencional en todos los meses del año.</li>
+</ul>
+</li>
 <li><strong>Política fronteriza impacta número de visitantes internacionales</strong>
-    - 5 de los top 6 países son <strong>vecinos directos</strong> del Perú. Una gran mayoría de visitantes internacionales depende de las políticas al borde de la frontera del Perú.</li>
+<ul>
+<li>5 de los top 6 países son <strong>vecinos directos</strong> del Perú. Una gran mayoría de visitantes internacionales depende de las políticas al borde de la frontera del Perú.</li>
+</ul>
+</li>
 <li><strong>Gran concentración en 25 de los 198 países</strong>
-    - El 95% de todos los visitantes internacionales provienen de los top 25 entre los 198 países. I.e., 177 países no tienen un aporte significativo en los visitantes y no hay necesidad de tener un enfoque importante en ellos.</li>
+<ul>
+<li>El 95% de todos los visitantes internacionales provienen de los top 25 entre los 198 países. I.e., 177 países no tienen un aporte significativo en los visitantes y no hay necesidad de tener un enfoque importante en ellos.</li>
+</ul>
+</li>
 </ul>
 <p><img src="http://localhost:1313/portfolio/es/proj2/VisitantesPorMes.png" alt="Visitantes Por Mes"></p>
 <p><br><br><br></p>
@@ -315,12 +322,21 @@ El proceso de web scraping de datos se encuentra <a href="https://github.com/jp2
 <p>Patrones Destacados:</p>
 <ul>
 <li>81 OCMs ocupan solo un 4.36% de visitantes internacionales.
-    - Existen 86 OCMs en Perú, con 81 de ellas agrupadas bajo la misma variable &lsquo;OTRAS_OCM&rsquo;. Solo 4.36% de visitantes internacionales entran por estas otras OCMs, implicando que no tienen un impacto significativo.
+<ul>
+<li>Existen 86 OCMs en Perú, con 81 de ellas agrupadas bajo la misma variable &lsquo;OTRAS_OCM&rsquo;. Solo 4.36% de visitantes internacionales entran por estas otras OCMs, implicando que no tienen un impacto significativo.
     <h4 id="ocm"></h4></li>
+</ul>
+</li>
 <li>OCM y su país vecino más <strong>cercano</strong>
-    - Cada OCM, excepto el Aeropuerto de Lima, tiene la mayoría de sus ingresantes viniendo del país vecino más cercano.</li>
+<ul>
+<li>Cada OCM, excepto el Aeropuerto de Lima, tiene la mayoría de sus ingresantes viniendo del país vecino más cercano.</li>
+</ul>
+</li>
 <li>Santa Rosa y Chilenos
-    - Aunque <strong>28.41%</strong> de todos los visitantes internacionales vienen por OCM Santa Rosa, la mayoría de esos ingresantes vienen de Chile. Esto se deduce del hecho de que 1/3 de todos los visitantes internacionales son chilenos, y 79.47% de ellos ingresan por Santa Rosa.</li>
+<ul>
+<li>Aunque <strong>28.41%</strong> de todos los visitantes internacionales vienen por OCM Santa Rosa, la mayoría de esos ingresantes vienen de Chile. Esto se deduce del hecho de que 1/3 de todos los visitantes internacionales son chilenos, y 79.47% de ellos ingresan por Santa Rosa.</li>
+</ul>
+</li>
 </ul>
 <p><img src="http://localhost:1313/portfolio/es/proj2/OCMPorPais.png" alt="OCM Por Pais"></p>
 <p><br><br><br></p>
@@ -334,9 +350,15 @@ El proceso de web scraping de datos se encuentra <a href="https://github.com/jp2
 <p>Patrones destacados:</p>
 <ul>
 <li>Tendencia estacional en todos los sitios turisticos
-    - Existe una tendencia estacional en todos los sitios turísticos. En todos los sitios turísticos, julio y Agosto reciben la mayor cantidad de turistas, mientras febrero tiene la menor cantidad.</li>
+<ul>
+<li>Existe una tendencia estacional en todos los sitios turísticos. En todos los sitios turísticos, julio y Agosto reciben la mayor cantidad de turistas, mientras febrero tiene la menor cantidad.</li>
+</ul>
+</li>
 <li>Prominencia de Machu Picchu
-    - Los top 5 sitios tienen algún enfoque con Machu Picchu. Algunos son servicios con destino a Machu Picchu, y otros son sitios en su alrededor.</li>
+<ul>
+<li>Los top 5 sitios tienen algún enfoque con Machu Picchu. Algunos son servicios con destino a Machu Picchu, y otros son sitios en su alrededor.</li>
+</ul>
+</li>
 </ul>
 <p><img src="http://localhost:1313/portfolio/es/proj2/TuristasMensuales.png" alt="Turistas Mensuales"></p>
 <p><br><br><br></p>
@@ -390,15 +412,15 @@ El proceso de web scraping de datos se encuentra <a href="https://github.com/jp2
 <h3 id="incorporar-sitios-sin-ingresos-en-paquetes-promocionales-para-machu-picchu">Incorporar Sitios sin Ingresos en Paquetes Promocionales para Machu Picchu</h3>
 <p>Machu Picchu, siendo una de las maravillas del mundo, es el sitio turístico más popular en Perú. Lo que también se descubrió es que existen una variedad de otros sitios en su alrededor sin costo para ingresar. Dentro de 25 kilómetros de Machu Picchu se encuentran 16 de estos sitios <strong>gratis</strong>. Con la inversión de gasolina para llevar a turistas dentro de 25 kilómetros, este hecho se puede incorporar con paquetes promocionales para generar más atracción.</p>
 <h2 id="kpis">KPIs</h2>
-<h3 id="1-cambio-porcentual-de-clientes">1. Cambio porcentual de Clientes</h3>
+<h3 id="cambio-porcentual-de-clientes">Cambio porcentual de Clientes</h3>
 <p>(Clientes Nuevos - Clientes Viejos)/Clientes Viejos x 100</p>
 <p>Enfoque: Para medir la eficacia de las campañas de targeted marketing, se medirá esta métrica en cada OCM que obtenga una promoción de marketing.  </p>
 <p><br><br><br></p>
-<h3 id="2-presupuesto-dinamico">2. Presupuesto Dinamico</h3>
+<h3 id="presupuesto-dinamico">Presupuesto Dinamico</h3>
 <p>Presupuesto Anual x (Turistas Mensuales / Turistas Anuales)</p>
 <p>Objetivo: Asignar un presupuesto proporcional al porcentaje de turistas que se manifiestan mensualmente.</p>
 <p><br><br><br></p>
-<h3 id="3-ratio-de-sitios">3. Ratio de Sitios</h3>
+<h3 id="ratio-de-sitios">Ratio de Sitios</h3>
 <p>Sitios gratis: Sitios no-gratis</p>
 <p>Enfoque: este ratio mostrará el efecto al incorporar sitio gratis en promociones, con el objetivo de aumentar el valor.</p>
 <h2 id="suposiciones-y-avisos">Suposiciones y Avisos</h2>
