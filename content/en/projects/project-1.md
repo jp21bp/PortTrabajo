@@ -18,13 +18,13 @@ summary: "In rural Paraguay, it is common for many families to open up a bodega 
     * [Category 'Meat' Contributes 27.13% of Monthly Revenue](#category-meat-contributes-2713-of-monthly-revenue)
     * [Average of 53.12% of Annual Stock is Thrown out](#average-of-5312-of-annual-stock-is-thrown-out)
 5. [Recommendations](#recommendations)
-    * [1. Advertising Combination: 'Meat' and 'Cookies and Snacks'](#1-advertising-combination-meat-and-cookies-and-snacks)
-    * [2. Reduce all Product Stocks by 15%](#2-reduce-all-product-stocks-by-15)
-    * [3. Offer discounts in February and November](#3-offer-discounts-in-february-and-november)
+    * [Advertising Combination: 'Meat' and 'Cookies and Snacks'](#advertising-combination-meat-and-cookies-and-snacks)
+    * [Reduce all Product Stocks by 15%](#reduce-all-product-stocks-by-15)
+    * [Offer discounts in February and November](#offer-discounts-in-february-and-november)
 6. [KPIs](#kpis)
-    * [1. ARPU = Average Revenue Per User](#1-arpu--average-revenue-per-user)
-    * [2. Percentage of Products Wasted](#2-percentage-of-products-wasted)
-    * [3. Percent of Monthly Revenue per Category](#3-percent-of-monthly-revenue-per-category)
+    * [ARPU = Average Revenue Per User](#arpu--average-revenue-per-user)
+    * [Percentage of Products Wasted](#percentage-of-products-wasted)
+    * [Percent of Monthly Revenue per Category](#percent-of-monthly-revenue-per-category)
 7. [Assumptions](#assumptions)
 
 ## Project Background
@@ -123,34 +123,34 @@ Recognizing the electrical limitations in Paraguayan towns, it was expected that
 
 ## Recommendations
 
-### 1. Advertising Combination: 'Meat' and 'Cookies and Snacks'
+### Advertising Combination: 'Meat' and 'Cookies and Snacks'
 'Meat' was the category with the highest monthly revenue (27.13% of revenue) and the third most popular (with only 47.9% annual losses). In contrast, 'Cookies and Snacks' is the category with the highest annual losses (68.22% of its inventory). Given that 'Cookies and Snacks' suffered losses of more than 70% in February, June, November, and December, this advertisement can be activated during those months to reduce product losses and increase sales of 'Meat'.
 <br><br>
 
-### 2. Reduce all Product Stocks by 15%
+### Reduce all Product Stocks by 15%
 Given that none of the products reached the stockout point in any of the months, it can be inferred that all products can reduce their losses by decreasing their inventory. Additionally, the lowest loss rate was 19.27%, with the 'Frozen' category in November. Therefore, a 15% reduction would not result in stockouts in any of the categories. All other loss rates do not fall below 24.31% across all categories and all months.
 
 <br><br>
 
-### 3. Offer discounts in February and November
+### Offer discounts in February and November
 During these months, the business attracted fewer customers than the monthly average, meaning that customers make fewer purchases during this time. Although the reason behind this decline is unknown, the small business could launch an initiative to attract more customers during these months. One way to encourage customer engagement is by offering general discounts on its products, which would attract more customers so they don’t miss out on this opportunity.
 <br><br><br>
 
 ## KPIs
 
-### 1. ARPU = Average Revenue Per User
+### ARPU = Average Revenue Per User
 Total Revenue / Number of Clients
 
 Objective: Increase the average monthly ARPU from 40,314 Gs. to 45,000 Gs. 
 <br><br>
 
-### 2. Percentage of Products Wasted
+### Percentage of Products Wasted
 ((Available Stock - Products Sold)/Available Stock) * 100
 
 Objective: Reduce the the average yearly products thrown out from 53.12% to 45% of total annual stock.
 <br><br>
 
-### 3. Percent of Monthly Revenue per Category
+### Percent of Monthly Revenue per Category
 (Revenue of a Category / Total Revenue) * 100
 
 Focus: Increase the sales of the category that generates the most revenue, 'Meat', from 27.13% to 30%. This will be achieved through advertisements with other categories that have a high percentage of waste. 

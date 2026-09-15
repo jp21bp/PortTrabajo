@@ -3,7 +3,7 @@ date : '2026-08-23T12:00:10-05:00'
 draft : false
 title : 'Tourism Demand Prediction Model'
 featured_image : 'en/proj2/MonthlyTourists.png'
-tags : ['Lasso regression', 'Random Forest', 'KMeans', 'Scikit-learn', 'Pandas',]
+tags : ['Hypothesis Testing', 'KMeans', 'Random Forest', 'Lasso Regression']
 summary: "Peru is a country full of history and culture, creating a vast and dynamic tourism sector where small businesses, such as PeruTur, can thrive. PeruTur is ready to scale at a national level, and this project examines the country's public datasets to identify tourists' entry points and sites visited. It focuses on targeted marketing, tourist segmentation, and predicting customer demand." 
 ---
 # Table of Contents
@@ -25,9 +25,9 @@ summary: "Peru is a country full of history and culture, creating a vast and dyn
     * [Managing a Budget That Fluctuates Month to Month](#managing-a-budget-that-fluctuates-month-to-month)
     * [Including Free-Admission Sites in Promotional Packages for Machu Picchu](#including-free-admission-sites-in-promotional-packages-for-machu-picchu)
 7. [KPIs](#kpis)
-    * [Percent Change of Clients](#1-percent-change-of-clients)
-    * [Dynamic Budget](#2-dynamic-budget)
-    * [Site Ratios](#3-site-ratios)
+    * [Percent Change of Clients](#percent-change-of-clients)
+    * [Dynamic Budget](#dynamic-budget)
+    * [Site Ratios](#site-ratios)
 8. [Assumptions](#assumptions)
 
 ## Project Background
@@ -78,7 +78,7 @@ Most international visitors to Peru come from just 25 countries, with Chile, the
 
 **South America and Peru's Neighbors**: Five of the top six countries in terms of international visitors are Peru's neighbors, and all South American countries are among the top 25 countries by contribution.
 
-**Tourism Seasons**: Every year, July and August see the highest number of international visitors, while **February has the lowest**, accounting for only 4.84* of all annual visitors.
+**Tourism Seasons**: Every year, July and August see the highest number of international visitors, while **February has the lowest**, accounting for only **4.84** of all annual visitors.
 
 **Free Sites Around Machu Picchu**: Within a 25-kilometer radius of Machu Picchu, there are 16 sites with free admission, most of which are located to the north.
 
@@ -209,17 +209,17 @@ Machu Picchu is the most popular tourist destination in Peru. It has also been d
 
 ## KPIs
 
-### 1. Percent Change of Clients
+### Percent Change of Clients
 ((New Clients - Old Clients)/Old Clients) * 100
 
 Focus: To measure the targeted marketing campaign effectiveness, this metric will be measured in each OCM that gets selected for the marketing campaign. 
 
-### 2. Dynamic Budget
+### Dynamic Budget
 Annual Budget * (Monthly Tourists / Annual Tourists)
 
 Objetive: Assign a budget proportional to the percent of tourists during a given month.
 
-### 3. Site Ratios
+### Site Ratios
 Free-entry sites : paid-entry sites
 
 Focus: This ratio will demonstrate the effect of integrating free-entry sites into advertisements, with the objective being to increase the value of this ratio. 
