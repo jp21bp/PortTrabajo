@@ -5,6 +5,8 @@ title : "Optimizing the ratio Sharpe of financial Portfolios"
 featured_image : 'en/proj3/CompoundedReturns.png'
 tags : ['Advanced Tensorflow', 'Deep Learning', 'Finance', 'LSTM', 'CNN']
 summary : "The South American financial sector has recently been growing and providing more opportunity for favorable investments. Capital Andina (CA) is an asset management business that aims to integrate Deep Learning models into their current set of portfolio strategies. This project focuses on evaluating models based on financial metrics such: ratio Sharpe, Max Drawdown, Downside Deviation, and more."
+params:
+    math: true
 ---
 # Table of Contents
 1. [Project Background](#project-background)
@@ -168,8 +170,7 @@ Objective: Increase the Sharpe ratio of the current portfolio by 67%. To achieve
 <br>
 
 ### Compounded Return
-\prod_{i=1}^t (1 + simple_return_i)
-
+\(\prod_{i=1}^t (1 + simpleReturn_i)\)
 
 Focus: Improve the portfolio's compound return. This will naturally follow as portfolio returns improve.
 
