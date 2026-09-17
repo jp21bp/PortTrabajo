@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on JP</title>
-		<link>http://localhost:1313/portfolio/tags/</link>
+		<link>https://jp21bp.github.io/portfolio/tags/</link>
 		<description>Recent content in Tags on JP</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,124 +12,124 @@
 		
 			<lastBuildDate>Sun, 23 Aug 2026 12:01:06 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://jp21bp.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Docker</title>
-				<link>http://localhost:1313/portfolio/tags/docker/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/docker/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/docker/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/docker/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hypothesis Testing</title>
-				<link>http://localhost:1313/portfolio/tags/hypothesis-testing/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/hypothesis-testing/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/hypothesis-testing/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/hypothesis-testing/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>KMeans</title>
-				<link>http://localhost:1313/portfolio/tags/kmeans/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/kmeans/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/kmeans/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/kmeans/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Lasso Regression</title>
-				<link>http://localhost:1313/portfolio/tags/lasso-regression/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/lasso-regression/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/lasso-regression/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/lasso-regression/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Model Deployment</title>
-				<link>http://localhost:1313/portfolio/tags/model-deployment/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/model-deployment/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/model-deployment/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/model-deployment/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Random Forest</title>
-				<link>http://localhost:1313/portfolio/tags/random-forest/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/random-forest/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/random-forest/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/random-forest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Matplotlib</title>
-				<link>http://localhost:1313/portfolio/tags/matplotlib/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/matplotlib/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/matplotlib/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/matplotlib/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pandas</title>
-				<link>http://localhost:1313/portfolio/tags/pandas/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/pandas/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/pandas/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/pandas/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SQL</title>
-				<link>http://localhost:1313/portfolio/tags/sql/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/sql/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:04 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/sql/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/sql/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Advanced Tensorflow</title>
-				<link>http://localhost:1313/portfolio/tags/advanced-tensorflow/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/advanced-tensorflow/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/advanced-tensorflow/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/advanced-tensorflow/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Aprendizaje Profundo</title>
-				<link>http://localhost:1313/portfolio/tags/aprendizaje-profundo/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/aprendizaje-profundo/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/aprendizaje-profundo/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/aprendizaje-profundo/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>CNN</title>
-				<link>http://localhost:1313/portfolio/tags/cnn/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/cnn/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/cnn/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/cnn/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Deep Learning</title>
-				<link>http://localhost:1313/portfolio/tags/deep-learning/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/deep-learning/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/deep-learning/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/deep-learning/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Finance</title>
-				<link>http://localhost:1313/portfolio/tags/finance/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/finance/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/finance/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/finance/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Finanzas</title>
-				<link>http://localhost:1313/portfolio/tags/finanzas/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/finanzas/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/finanzas/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/finanzas/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>LSTM</title>
-				<link>http://localhost:1313/portfolio/tags/lstm/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/lstm/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/lstm/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/lstm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tensorflow Avanzado</title>
-				<link>http://localhost:1313/portfolio/tags/tensorflow-avanzado/</link>
+				<link>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
-				<guid>http://localhost:1313/portfolio/tags/tensorflow-avanzado/</guid>
+				<guid>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</guid>
 				<description></description>
 			</item>
 	</channel>
