@@ -49,11 +49,17 @@ The recommendations on targeted marketing, dynamic budgeting, and free sites is 
 **Availability of Free Tourist Sites**: Machu Picchu, one of the seven wonders of the world, is the most popular tourist site in Peru, meaning that most of PeruTur’s customers will want to travel there. The analysis showed that there are 16 **free-entry** tourist sites within a 25-kilometer radius of Machu Picchu. This presents an opportunity to create advertisements that include these sites without incurring additional costs (other than gasoline).
 
 <br><br>
-The web scraping process can be found [HERE](https://github.com/jp21bp/PeruTur_EN/blob/main/scraper.py)
 
-The data insight development can be found [HERE](https://github.com/jp21bp/PeruTur_EN/blob/main/insights.ipynb)
+The deployed frontend for the ML prediction model backend can be found [HERE](https://perutourismpredictioninterface.onrender.com/)
+
+Dockerfiles: [Backend](https://github.com/jp21bp/PeruTur_EN/tree/Backend/Dockerfile) and [Frontend](https://github.com/jp21bp/PeruTur_EN/tree/Frontend/Dockerfile)
+
+The model's data Pipeline and hypothesis testing can be found [HERE](https://github.com/jp21bp/PeruTur_EN/blob/main/insights.ipynb/pipeline_and_hypothesis.py)
 
 The models' creation and evaluation can be found [HERE](https://github.com/jp21bp/PeruTur_EN/tree/main/Models)
+
+The web scraping process can be found [HERE](https://github.com/jp21bp/PeruTur_EN/blob/main/scraper.py)
+
 
 <br><br>
 

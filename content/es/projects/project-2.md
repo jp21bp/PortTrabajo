@@ -52,11 +52,17 @@ Se destacan los enfoques en targeted marketing, presupuesto dinámico y los siti
 
 
 <br><br>
-El proceso de web scraping de datos se encuentra [AQUÍ](https://github.com/jp21bp/PeruTur_ES/blob/main/scraper.py)
+El frontend desplegado para el backend, modelo ML de prediccion se encuentra [AQUÍ](https://perutourismpredictioninterface.onrender.com/)
 
-Los análisis de los datos coleccionados se encuentran [AQUÍ](https://github.com/jp21bp/PeruTur_ES/blob/main/insights.ipynb)
+Dockerfiles: [Backend](https://github.com/jp21bp/PeruTur_ES/tree/main/Backend/Dockerfile) y [Frontend](https://github.com/jp21bp/PeruTur_ES/tree/main/Frontend/Dockerfile)
+
+La creación del data Pipeline y la preuba de hipotesis se encuentran [AQUÍ](https://github.com/jp21bp/PeruTur_ES/blob/main/pipeline_y_hipotesis.py)
 
 La creación y evaluación de los modelos se encuentran [AQUÍ](https://github.com/jp21bp/PeruTur_ES/tree/main/Modelos)
+
+El proceso de web scraping de datos se encuentra [AQUÍ](https://github.com/jp21bp/PeruTur_ES/blob/main/scraper.py)
+
+
 
 ## Estructura de los Datos y sus Verificaciones
 3 conjuntos de datos diferentes se utilizaron para desarrollar los análisis necesarios, y sus componentes son los siguientes:
