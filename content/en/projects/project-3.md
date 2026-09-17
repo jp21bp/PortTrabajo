@@ -65,6 +65,8 @@ The transformation of raw data into financial tecnical indicators can be found [
 
 The TF model creation, training, and data pre-processing can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/tf_models.py)
 
+Model's graph is found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/Images/ModelGraph.png)
+
 The evaluation of ML and non-ML strategies can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/evaluations.py)
 
 

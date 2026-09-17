@@ -65,6 +65,9 @@ La transformación de datos crudos a indicadores financieros se puede encontrar 
 
 La creación y entrenamiento de los modelos TF, y el preprocesamiento de los datos, se pueden encontrar [AQUÍ](https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/tf_modelos.py)
 
+
+El grafo del modelo se encuentra [AQUÍ](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/Images/ModelGraph.png)
+
 La evaluación de las estrategias ML y no-ML se puede encontrar [AQUÍ](https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/evaluaciones.py)
 
 
