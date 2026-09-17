@@ -273,15 +273,6 @@
 <p><strong>Business Sectors</strong>: One of the strategies used by CA focuses on a fixed weight allocation over the entire period. They determine this allocation based on each company’s sector, including the following sectors: energy, finance, healthcare, materials, utilities, etc. Analysis shows that investment focused on the industrial sector yields better returns and a higher Sharpe ratio across all non-ML strategies.</p>
 <p><strong>ML vs. Non-ML</strong>: The difference between these two strategies is evident in specific metrics. While ML strategies outperform in <strong>Sharpe ratio and cumulative return</strong>, non-ML strategies perform better in <strong>volatility and percentage of positive returns</strong>. The appropriate strategy depends on the user’s investment preferences.</p>
 <p><strong>Benchmark</strong>: CA’s foresight becomes a certainty wheit is discovered that all current strategies outperformed the benchmark. Despite this, the benchmark serves as a useful reference point because it captures market turbulence, such as the COVID-19 pandemic. When such turbulence occurs in other strategies, they can be compared to the benchmark to identify the root causes of these fluctuations.</p>
-<br>
-<h2 id="data-structure">Data Structure</h2>
-<p>SPLAC is a financial index consisting of the top 40 South American companies with the highest market capitalization and liquidity. The composition of this index varies over time; therefore, the companies selected were those that were among these 40 on August 31, 2026. Recognizing that not all of these companies were founded at the same time, a filter was applied to select companies that were active as of February 28, 2006. This date was chosen to ensure that the 2008 crisis was included in the data.</p>
-<p>The historical data was downloaded from YFinance, with the following details:</p>
-<ul>
-<li>Dates (post-filtering): 2/28/2006 – 8/28/2026</li>
-<li>Companies (post-filtering): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA. CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA</li>
-<li>Indicators: Adjusted Close, Close, High, Low, Open, and Volume.</li>
-</ul>
 <p><br><br></p>
 <p>The transformation of raw data into financial tecnical indicators can be found <a href="https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/feat_eng.py"
    target="_blank" rel="noopener noreferrer">
@@ -299,6 +290,15 @@
    target="_blank" rel="noopener noreferrer">
     HERE
 </a></p>
+<br>
+<h2 id="data-structure">Data Structure</h2>
+<p>SPLAC is a financial index consisting of the top 40 South American companies with the highest market capitalization and liquidity. The composition of this index varies over time; therefore, the companies selected were those that were among these 40 on August 31, 2026. Recognizing that not all of these companies were founded at the same time, a filter was applied to select companies that were active as of February 28, 2006. This date was chosen to ensure that the 2008 crisis was included in the data.</p>
+<p>The historical data was downloaded from YFinance, with the following details:</p>
+<ul>
+<li>Dates (post-filtering): 2/28/2006 – 8/28/2026</li>
+<li>Companies (post-filtering): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA. CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA</li>
+<li>Indicators: Adjusted Close, Close, High, Low, Open, and Volume.</li>
+</ul>
 <h2 id="executive-summary">Executive Summary</h2>
 <h3 id="overview-of-discoveries">Overview of Discoveries</h3>
 <p>Different sectors of these South American companies experience periods when they are stronger or weaker than other sectors. Despite this variation, the <strong>industrial sector</strong> has achieved greater success and returns than all others, indicating that it is a good sector for investment.</p>

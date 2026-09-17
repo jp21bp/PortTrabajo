@@ -273,14 +273,6 @@
 <p><strong>Sectores Empresariales</strong>: Una de las estrategias utilizadas por CA se enfoca en asignación fija (de pesos) a través de todo el tiempo. Ellos determinan esta asignación basado en el sector de cada empresa, y algunos candidatos son: energía, financiero, salud, materiales, utilidades, etc. El análisis demuestra que la inversión enfocada en el sector industrial resulta en mejores rendimientos y ratio Sharpe a través de todas las estrategias sin ML.</p>
 <p><strong>ML vs. no-ML</strong>: La diferencia entre estas dos estrategias se nota en métricas específicas. Mientras las estrategias ML son superiores en el <strong>ratio Sharpe y retorno acumulado</strong>, las estrategias no-ML son mejores en la <strong>Volatilidad y Porcentaje de retorno positivo</strong>. La estrategia adecuada depende de las preferencias que el usuario quiere implementar en sus inversiones.</p>
 <p><strong>Benchmark</strong>: La precognición de CA se convierte en certeza al investigar que todas las estrategias obtuvieron mejores rendimientos que el benchmark. A pesar de eso, el benchmark es una buena referencia al poder capturar turbulencias en el mercado, como la pandemia del COVID. Cuando estos remolinos aparecen en otras estrategias, se pueden comparar con el benchmark para identificar las raíces de estas turbulencias.</p>
-<h2 id="estructura-de-los-datos-y-su-verificaciones">Estructura de los Datos y su Verificaciones</h2>
-<p>SPLAC es un índice financiero que consiste en las 40 empresas suramericanas de tamaño y liquidez más alta. Estas compañías varían a través del tiempo, entonces las empresas seleccionadas fueron las que estaban dentro de estas 40 empresas el 31 de agosto de 2026. Reconociendo que no todas estas compañías empezaron al mismo tiempo, se aplicó una filtración para seleccionar a las compañías que estaban activas el 28 de febrero del 2006. Esta fecha se escogió para poder incluir la crisis del 2008 dentro de los datos.</p>
-<p>La información histórica se descargó de YFinance, con los siguientes detalles:</p>
-<ul>
-<li>Fechas (post-filtración): 28/2/2006 - 28/8/2026</li>
-<li>Compañías (post-filtración): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA.CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA</li>
-<li>Indicadores: Cierre Ajustado, Cierre, Alto, Bajo, Apertura, y Volumen.</li>
-</ul>
 <p><br><br></p>
 <p>La transformación de datos crudos a indicadores financieros se puede encontrar <a href="https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/feat_eng.py"
    target="_blank" rel="noopener noreferrer">
@@ -298,6 +290,15 @@
    target="_blank" rel="noopener noreferrer">
     AQUÍ
 </a></p>
+<br>
+<h2 id="estructura-de-los-datos-y-su-verificaciones">Estructura de los Datos y su Verificaciones</h2>
+<p>SPLAC es un índice financiero que consiste en las 40 empresas suramericanas de tamaño y liquidez más alta. Estas compañías varían a través del tiempo, entonces las empresas seleccionadas fueron las que estaban dentro de estas 40 empresas el 31 de agosto de 2026. Reconociendo que no todas estas compañías empezaron al mismo tiempo, se aplicó una filtración para seleccionar a las compañías que estaban activas el 28 de febrero del 2006. Esta fecha se escogió para poder incluir la crisis del 2008 dentro de los datos.</p>
+<p>La información histórica se descargó de YFinance, con los siguientes detalles:</p>
+<ul>
+<li>Fechas (post-filtración): 28/2/2006 - 28/8/2026</li>
+<li>Compañías (post-filtración): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA.CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA</li>
+<li>Indicadores: Cierre Ajustado, Cierre, Alto, Bajo, Apertura, y Volumen.</li>
+</ul>
 <h2 id="resumen-ejecutivo">Resumen Ejecutivo</h2>
 <h3 id="resumen-de-descubrimientos">Resumen de Descubrimientos</h3>
 <p>Diferentes sectores de las empresas suramericanas tienen momentos donde son más fuertes o más débiles que los otros sectores. A pesar de esta variación, el <strong>sector industrial</strong> ha obtenido más éxitos y rendimientos que todos los demás, indicando que es un buen sector para hacer inversiones.</p>

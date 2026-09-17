@@ -50,15 +50,6 @@ Considerando la complejidad de inversiones, las estrategias de portafolio se eva
 **Benchmark**: La precognición de CA se convierte en certeza al investigar que todas las estrategias obtuvieron mejores rendimientos que el benchmark. A pesar de eso, el benchmark es una buena referencia al poder capturar turbulencias en el mercado, como la pandemia del COVID. Cuando estos remolinos aparecen en otras estrategias, se pueden comparar con el benchmark para identificar las raíces de estas turbulencias. 
 
 
-
-## Estructura de los Datos y su Verificaciones
-SPLAC es un índice financiero que consiste en las 40 empresas suramericanas de tamaño y liquidez más alta. Estas compañías varían a través del tiempo, entonces las empresas seleccionadas fueron las que estaban dentro de estas 40 empresas el 31 de agosto de 2026. Reconociendo que no todas estas compañías empezaron al mismo tiempo, se aplicó una filtración para seleccionar a las compañías que estaban activas el 28 de febrero del 2006. Esta fecha se escogió para poder incluir la crisis del 2008 dentro de los datos. 
-
-La información histórica se descargó de YFinance, con los siguientes detalles:
-* Fechas (post-filtración): 28/2/2006 - 28/8/2026
-* Compañías (post-filtración): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA.CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA
-* Indicadores: Cierre Ajustado, Cierre, Alto, Bajo, Apertura, y Volumen.
-
 <br><br>
 
 La transformación de datos crudos a indicadores financieros se puede encontrar [AQUÍ](https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/feat_eng.py)
@@ -69,6 +60,19 @@ La creación y entrenamiento de los modelos TF, y el preprocesamiento de los dat
 El grafo del modelo se encuentra [AQUÍ](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/Images/ModelGraph.png)
 
 La evaluación de las estrategias ML y no-ML se puede encontrar [AQUÍ](https://github.com/jp21bp/PortafolioOptimizacion_ES/blob/main/evaluaciones.py)
+
+
+<br>
+
+## Estructura de los Datos y su Verificaciones
+SPLAC es un índice financiero que consiste en las 40 empresas suramericanas de tamaño y liquidez más alta. Estas compañías varían a través del tiempo, entonces las empresas seleccionadas fueron las que estaban dentro de estas 40 empresas el 31 de agosto de 2026. Reconociendo que no todas estas compañías empezaron al mismo tiempo, se aplicó una filtración para seleccionar a las compañías que estaban activas el 28 de febrero del 2006. Esta fecha se escogió para poder incluir la crisis del 2008 dentro de los datos. 
+
+La información histórica se descargó de YFinance, con los siguientes detalles:
+* Fechas (post-filtración): 28/2/2006 - 28/8/2026
+* Compañías (post-filtración): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA.CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA
+* Indicadores: Cierre Ajustado, Cierre, Alto, Bajo, Apertura, y Volumen.
+
+
 
 
 

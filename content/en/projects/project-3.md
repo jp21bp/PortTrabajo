@@ -49,6 +49,16 @@ Given the complexity of investments, portfolio strategies will be evaluated usin
 
 **Benchmark**: CA’s foresight becomes a certainty wheit is discovered that all current strategies outperformed the benchmark. Despite this, the benchmark serves as a useful reference point because it captures market turbulence, such as the COVID-19 pandemic. When such turbulence occurs in other strategies, they can be compared to the benchmark to identify the root causes of these fluctuations.
 
+<br><br>
+
+The transformation of raw data into financial tecnical indicators can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/feat_eng.py)
+
+The TF model creation, training, and data pre-processing can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/tf_models.py)
+
+Model's graph is found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/Images/ModelGraph.png)
+
+The evaluation of ML and non-ML strategies can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/evaluations.py)
+
 <br>
 
 ## Data Structure
@@ -59,15 +69,6 @@ The historical data was downloaded from YFinance, with the following details:
 * Companies (post-filtering): AMXB.MX, AXIA3.SA, BBAS3.SA, BIMBOA.MX, BSAC, CEMEXCPO.MX, CENCOSUD.SN, CIB, FEMSAUBD.MX, GCARSOA1.MX, GGB, ISA. CL, PAC, PBR, RENT3.SA, SCCO, SQM, VALE, VIV, WALMEX.MX, WEGE3.SA
 * Indicators: Adjusted Close, Close, High, Low, Open, and Volume.
 
-<br><br>
-
-The transformation of raw data into financial tecnical indicators can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/feat_eng.py)
-
-The TF model creation, training, and data pre-processing can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/tf_models.py)
-
-Model's graph is found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/Images/ModelGraph.png)
-
-The evaluation of ML and non-ML strategies can be found [HERE](https://github.com/jp21bp/PortfolioOptimization_EN/blob/main/evaluations.py)
 
 
 
