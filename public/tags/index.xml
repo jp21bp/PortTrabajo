@@ -14,6 +14,13 @@
 		
 			<atom:link href="http://localhost:1313/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Docker</title>
+				<link>http://localhost:1313/portfolio/tags/docker/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/docker/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Hypothesis Testing</title>
 				<link>http://localhost:1313/portfolio/tags/hypothesis-testing/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
@@ -32,6 +39,13 @@
 				<link>http://localhost:1313/portfolio/tags/lasso-regression/</link>
 				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
 				<guid>http://localhost:1313/portfolio/tags/lasso-regression/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Model Deployment</title>
+				<link>http://localhost:1313/portfolio/tags/model-deployment/</link>
+				<pubDate>Sun, 23 Aug 2026 12:01:06 -0500</pubDate>
+				<guid>http://localhost:1313/portfolio/tags/model-deployment/</guid>
 				<description></description>
 			</item>
 			<item>

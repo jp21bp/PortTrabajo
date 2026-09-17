@@ -99,9 +99,9 @@ canonifyURLs = true
 
 
   [[params.footer_links]]
-    name = "Tourism Demand Prediction Model"
-    url = "/projects/project-1"
-    alt = "Prediciendo la Demanda de servicios Turisticos"
+    name = "Fullstack Website - Tourism Demand Prediction"
+    url = "https://perutourismpredictioninterface.onrender.com/"
+    alt = "Fullstack Website - Prediciendo Demanda Turistica"
 
   [[params.footer_links]]
     name = "Resume"
