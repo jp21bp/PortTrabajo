@@ -15,7 +15,7 @@
     {{ with .Site.GetPage "section" $about_sitio}}
         {{ if .Content }}
         <div class="kawaii-list-description">
-            {{ truncate 200 .Content }}
+            {{ truncate 230 .Content }}
         </div>
         <a href="{{printf `/%s/%s` $lenguaje `about`}}">
             {{ if eq $lenguaje "es"}}
@@ -27,14 +27,14 @@
         <br><br>
         <div class="kawaii-list-description">
             {{ if eq $lenguaje "es"}}
-                Échele un vistazo al sitio desplegado de mi modelo de predicción turística 
+                Aplicación web desplegada para el modelo de predicción turística: 
                 <a href="https://perutourismpredictioninterface.onrender.com/" target="_blank" rel="noopener noreferrer">
-                    aquí
+                    Demo en Vivo
                 </a>
             {{ else }}
-                Check out my deployed, tourism prediction model's site
+                Deployed web application for a tourism prediction model: 
                 <a href="https://perutourismpredictioninterface.onrender.com/" target="_blank" rel="noopener noreferrer">
-                    here
+                    Live Demo
                 </a>
             {{ end }}
         </div>
