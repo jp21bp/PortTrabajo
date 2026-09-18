@@ -5,7 +5,7 @@ title : 'Sobre Yo'
 params:
     math: true
 ---
-Soy **Jordan Parra** - un **profesional de datos**, bilingüe y analítico, con habilidades en **modelización estadística** y experiencia práctica en la **integración de decisiones basadas en datos** en pequeñas empresas. Me especializo en explicar conceptos relacionados con los datos y técnicas de aprendizaje automático de forma clara y accesible a las audiencias que carecen de conocimientos técnicos. Experto en **visualizaciones creativas, SQL y Python**, transformando **información compleja extraída de los datos en recomendaciones prácticas**. Apoyo el trabajo en equipo y de colaboración, con experiencia en liderazgo y habilidades de comunicación eficaces. 
+Soy **Jordan Parra** - un **profesional de datos**, bilingüe y analítico, con habilidades en **modelización estadística** y con más de 3 años de experiencia práctica en la **integración de decisiones basadas en datos** en pequeñas empresas. Me especializo en explicar conceptos relacionados con los datos y técnicas de aprendizaje automático de forma clara y accesible a las audiencias que carecen de conocimientos técnicos. Experto en **visualizaciones creativas, SQL y Python**, transformando **información compleja extraída de los datos en recomendaciones prácticas**. Apoyo el trabajo en equipo y de colaboración, con experiencia en liderazgo y habilidades de comunicación eficaces. 
 
 ## Experiencia Profesional 
 ### Desarrollador Económico Comunitario

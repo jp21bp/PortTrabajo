@@ -126,10 +126,24 @@
 				<description></description>
 			</item>
 			<item>
+				<title>Series Temporales</title>
+				<link>https://jp21bp.github.io/portfolio/tags/series-temporales/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/series-temporales/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Tensorflow Avanzado</title>
 				<link>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</link>
 				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
 				<guid>https://jp21bp.github.io/portfolio/tags/tensorflow-avanzado/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Time Series</title>
+				<link>https://jp21bp.github.io/portfolio/tags/time-series/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/tags/time-series/</guid>
 				<description></description>
 			</item>
 	</channel>

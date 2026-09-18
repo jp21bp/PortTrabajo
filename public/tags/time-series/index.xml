@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Time Series on JP</title>
+		<link>https://jp21bp.github.io/portfolio/tags/time-series/</link>
+		<description>Recent content in Time Series on JP</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 23 Aug 2026 11:59:58 -0500</lastBuildDate>
+		
+			<atom:link href="https://jp21bp.github.io/portfolio/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Optimizing the ratio Sharpe of financial Portfolios</title>
+				<link>https://jp21bp.github.io/portfolio/en/projects/project-3/</link>
+				<pubDate>Sun, 23 Aug 2026 11:59:58 -0500</pubDate>
+				<guid>https://jp21bp.github.io/portfolio/en/projects/project-3/</guid>
+				<description>The South American financial sector has recently been growing and providing more opportunity for favorable investments. Capital Andina (CA) is an asset management business that aims to integrate Deep Learning models into their current set of portfolio strategies. This project focuses on evaluating models based on financial metrics such: ratio Sharpe, Max Drawdown, Downside Deviation, and more.</description>
+			</item>
+	</channel>
+</rss>

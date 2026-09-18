@@ -5,7 +5,7 @@ title : 'About Me'
 params:
     math: true
 ---
-I'm **Jordan Parra** - a bilingual, analytical **data professional** with **statistical modeling** skills and hands-on experience **integrating data-driven decisions** in small businesses. I specialize in explaining data concepts and machine learning techniques in a clear and accessible manner to stakeholders without a technical background. Skilled in **creative visualizations, SQL, and Python**, translating complex **data insights into practical recommendations**. Collaborative team player with in-field leadership experience and effective communication. 
+I'm **Jordan Parra** - a bilingual, analytical **data professional** with **statistical modeling** skills and over 3 years of hands-on experience **integrating data-driven decisions** in small businesses. I specialize in explaining data concepts and machine learning techniques in a clear and accessible manner to stakeholders without a technical background. Skilled in **creative visualizations, SQL, and Python**, translating complex **data insights into practical recommendations**. Collaborative team player with in-field leadership experience and effective communication. 
 
 ## Professional Experience
 ### Community Economic Developer - Peace Corps
